@@ -53,7 +53,8 @@ jobs:
               if len(candidates)!=1: raise SystemExit("Expected exactly one top-level module.json or module-folder/module.json")
               prefix=candidates[0][:-len("module.json")]
               manifest=json.loads(z.read(byname[candidates[0]]).decode("utf-8-sig"))
-              if manifest.get("version")!=os.environ["TAG"][1:]:
+              tag_version=os.environ["TAG"][1:].split("_",1)[0]
+              if manifest.get("version")!=tag_version:
                   raise SystemExit("Module version doesn't match tag: "+str(manifest.get("version")))
               module_id=manifest.get("id")
               if not isinstance(module_id,str) or not module_id or "/" in module_id:
