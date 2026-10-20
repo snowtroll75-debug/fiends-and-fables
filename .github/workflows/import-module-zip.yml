@@ -1,0 +1,107 @@
+name: Import Fiends and Fables ZIP
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing release tag, e.g. v0.45.0_2"
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: fiends-fables-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Download release archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+(_[0-9]+)?$ ]] || { echo "Invalid tag"; exit 1; }
+          mkdir -p incoming
+          gh release download "$TAG" --pattern 'fiends-and-fables-prime.zip' --dir incoming
+          test -s incoming/fiends-and-fables-prime.zip
+      - name: Verify and unpack
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          python3 - <<'PY'
+          import os,json,pathlib,zipfile,shutil
+          src=pathlib.Path("incoming/fiends-and-fables-prime.zip")
+          dest=pathlib.Path("staging")
+          dest.mkdir()
+          with zipfile.ZipFile(src) as z:
+              items=[i for i in z.infolist() if not i.is_dir()]
+              if not items or len(items)>50000 or sum(i.file_size for i in items)>3000000000:
+                  raise SystemExit("Archive size/entry limit exceeded")
+              byname={}
+              for i in items:
+                  p=pathlib.PurePosixPath(i.filename)
+                  mode=(i.external_attr >> 16) & 0o170000
+                  if p.is_absolute() or ".." in p.parts or "\\" in i.filename or mode==0o120000:
+                      raise SystemExit("Unsafe archive member "+i.filename)
+                  if i.filename in byname: raise SystemExit("Duplicate archive path "+i.filename)
+                  byname[i.filename]=i
+              candidates=[n for n in byname if n=="module.json" or (n.endswith("/module.json") and len(pathlib.PurePosixPath(n).parts)==2)]
+              if len(candidates)!=1: raise SystemExit("Expected exactly one top-level module.json or module-folder/module.json")
+              prefix=candidates[0][:-len("module.json")]
+              manifest=json.loads(z.read(byname[candidates[0]]).decode("utf-8-sig"))
+              if manifest.get("version")!=os.environ["TAG"][1:]:
+                  raise SystemExit("Module version doesn't match tag: "+str(manifest.get("version")))
+              module_id=manifest.get("id")
+              if not isinstance(module_id,str) or not module_id or "/" in module_id:
+                  raise SystemExit("Invalid module ID")
+              base="https://github.com/snowtroll75-debug/fiends-and-fables"
+              manifest["manifest"]="https://raw.githubusercontent.com/snowtroll75-debug/fiends-and-fables/main/module.json"
+              manifest["download"]=base+"/releases/download/"+os.environ["TAG"]+"/fiends-and-fables.zip"
+              for name,i in byname.items():
+                  if not name.startswith(prefix): continue
+                  relative=name[len(prefix):]
+                  if not relative: continue
+                  # Keep all actual module content; do not include imported GitHub metadata.
+                  if relative.startswith(".git/") or relative.startswith(".github/"): continue
+                  target=dest/relative
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  with z.open(i) as a,open(target,"wb") as b: shutil.copyfileobj(a,b)
+              (dest/"module.json").write_text(json.dumps(manifest,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+          for field in ("esmodules","scripts","styles"):
+              for entry in manifest.get(field,[]):
+                  if not (dest/entry).is_file(): raise SystemExit("Missing "+field+": "+entry)
+          for language in manifest.get("languages",[]):
+              if not (dest/language["path"]).is_file(): raise SystemExit("Missing language "+language["path"])
+          for pack in manifest.get("packs",[]):
+              if not (dest/pack["path"]).exists(): raise SystemExit("Missing pack "+pack["path"])
+          print("Validated",module_id,manifest["version"],"with",len(byname),"archive entries")
+          PY
+      - name: Package module for Foundry
+        run: |
+          cd staging
+          zip -qr ../fiends-and-fables.zip . -x '*.git*'
+          cd ..
+          unzip -p fiends-and-fables.zip module.json | python3 -c "import json,sys; print('Packaged:',json.load(sys.stdin)['version'])"
+      - name: Upload canonical release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+        run: gh release upload "$TAG" fiends-and-fables.zip --clobber
+      - name: Commit module content to main
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Preserve README, workflows and Git metadata; update module files.
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.github' ! -name 'README.md' ! -name 'incoming' ! -name 'staging' ! -name 'fiends-and-fables.zip' -exec rm -rf {} +
+          cp -a staging/. .
+          git add -A
+          git reset -q -- incoming staging fiends-and-fables.zip 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Import Fiends and Fables $TAG"
+          git push origin HEAD:main
