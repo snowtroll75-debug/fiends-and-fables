@@ -1,0 +1,2610 @@
+{
+  "version": "0.10.6",
+  "batch": [
+    "Akrexe",
+    "Aroch",
+    "Balor",
+    "Dretch",
+    "Hantya"
+  ],
+  "summary": {
+    "passed": 401,
+    "total": 401
+  },
+  "checks": [
+    {
+      "name": "Creature actor count",
+      "passed": true,
+      "detail": 280
+    },
+    {
+      "name": "previous root exact Cold Dragon, Sovereign",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Gondathel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Wood Golem",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Yulussil",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Marid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Dragon, Sovereign",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cold Dragon, Scaleborn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Arcane Lich",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Djinn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Angrenilir",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Giant Eagle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Marshlight",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Kobold Sneak",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Mammoth",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ettin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Druharr",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shadowthorn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Dragon, Talon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Draeglir Halya",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Elephant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Kraken",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Forest Dragon, Talon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Eclipse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Giant Gecko",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Guard Dog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Sea Dragon, Scaleborn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Draeglir Vyair",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Obsidral",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cold Dragon, Talon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Human Ghost",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cave Dragon, Talon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shade Dragon, Scaleborn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Light Dragon, Talon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Giant Chameleon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Frost Drake",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Dryad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Gryphon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Sea Dragon, Sovereign",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Jann",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Forest Dragon, Sovereign",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Draeglir Aelin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ghoul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Frostsnarl",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shade Dragon, Mature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Huanling",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Gorgon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Stone Golem",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Clay Golem",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Bugbear Soldier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Giant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Flesh Golem",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Iron Golem",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Aboleth",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Light Dragon, Scaleborn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Rumellor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Riding Dog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cave Dragon, Scaleborn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Forest Dragon, Scaleborn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Blightborn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Dao",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cave Dragon, Sovereign",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Pyraquenil",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Guardian Dragon, Hatchling",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Guardian Dragon, Talon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ghast",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Storm Drake",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Druhari",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Gargoyle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Giant Frilled Lizard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Guardian Dragon, Sovereign",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Wyvern",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shade Dragon, Talon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Light Dragon, Sovereign",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Eagle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Efreet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Draeglir Tyel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Titan Hound",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Sea Dragon, Talon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Dragon, Scaleborn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Flame Drake",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Earth Drake",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Goblin Warrior",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Xort",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Unicorn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Goblin Elite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cloud Giant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Frost Giant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Hill Giant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Stone Giant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Storm Giant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Glimmerwick",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Kobold Elite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Terradon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Lustrian Brave",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Lustrian Khrissk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Manticore",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Medusa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Minotaur",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Morndulir Worker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Morndulir Soldier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Camel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Riding Horse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact War Horse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Azure Muck",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Crimson Muck",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Dusky Muck",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Golden Muck",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Verdant Muck",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Mummy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cursarion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Doctus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fancalia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Nubifor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Somnichan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Nettlehide",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Nightmare",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Nightmare Lord",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Nightray",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Nimblespring",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Nixie",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Oceanidh",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Oceanidh Hunter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ochre Jelly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ogre",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ogre Soldier",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Oryceps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Pegasus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Phasmus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Phoenix",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Pixie",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Air Primal - Briez",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Air Primal - Gayl",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Air Primal - Stourm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Air Primal - Tempast",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Earth Primal - Pebbal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Earth Primal - Stown",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Earth Primal - Maoton",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Earth Primal - Aerph",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Primal - Emba",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Primal - Flaim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Primal - Intheno",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Primal - Pyroclas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Water Primal - Dropp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Water Primal - Waive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Water Primal - Tydal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Water Primal - Synarmi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Rat Swarm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Giant Rat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Raven Swarm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Raven",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Roc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Salamander",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Salamaxis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Sequoia Allium",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shade Stalker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shade Walker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shade Wing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shade Wraith",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Soul Shade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shadow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Dread Shadow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shambler",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Mite Swarm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Shark",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Magnuslamnia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Skeleton Warrior",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Skeleton Champion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Viper",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Sand Serpent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Constrictor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Mountain Serpent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Mortivor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Nocturnus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Noxmortis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Queldor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Reaver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Tenebrax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Violith",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Wrathmorta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Spectre",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Sphinx",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Spider Swarm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Giant Spider",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Monstrous Spider",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Grey Spider",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Inferno Spider",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Storm Crow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Thornkin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Titan",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cave Troll",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Forest Troll",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Hill Troll",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Mountain Troll",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact River Troll",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Snow Troll",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Vampire",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Wight",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Wolf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Wulve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Waarg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Wraith",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Wysp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Zombie, Human",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Aboleth Magi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Banshee Dirge Singer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cloud Giant Shaman",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire Giant Shaman",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Frost Giant Shaman",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Hill Giant Shaman",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Stone Giant Shaman",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Storm Giant Shaman",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Air",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Earth",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Fire",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Water",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Avoral",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Dracoral",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Feloral",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Luporal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Pyroral",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Archangel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cherubim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Guardian",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Seraphim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Virtue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Animus Armour",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Animus Colossus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Animus Statue",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Animus Statue, Giant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Dancing Broom",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Flying Rug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ankheg",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ankheg, Queen",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Ape Lord",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Laeleth",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Athach",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Azur",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Banshee",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Barghest",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Gravhek",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Basilisk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Bat Swarm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Giant Bat",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cave Bear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Grizzly Bear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Polar Bear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Flame Beetle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Giant Stag Beetle",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Mirneth",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Behir",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Belkar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Belkar Storm Lord",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Blink Dog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Blink Dog, Alpha",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Boar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Kothorn",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Bugbear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Bulette",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cheetah",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Leopard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Lion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Smilodon",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Tiger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Lynxara",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Centaur",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Chuul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cloaker",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cockatrice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Crocodile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Titasuchus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Cyclops",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Zylar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous root exact Triclops",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Demon top-level Race",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Akrexe top-level Heritage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Aroch top-level Heritage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Balor top-level Heritage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dretch top-level Heritage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hantya top-level Heritage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Abyssal Healing generic ability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Aura of Ruin generic ability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dispelling Strike generic ability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Torrent of Strikes generic ability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Vorpal Weapons generic ability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Akrexe item refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Akrexe effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Akrexe ability derivation",
+      "passed": true,
+      "detail": [
+        [
+          4,
+          4,
+          3,
+          0,
+          0,
+          2
+        ],
+        [
+          4,
+          4,
+          3,
+          0,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "Akrexe HP derivation",
+      "passed": true,
+      "detail": [
+        139,
+        139
+      ]
+    },
+    {
+      "name": "Akrexe DB derivation",
+      "passed": true,
+      "detail": [
+        23,
+        23
+      ]
+    },
+    {
+      "name": "Akrexe save derivation",
+      "passed": true,
+      "detail": [
+        [
+          17,
+          13,
+          15
+        ],
+        [
+          17,
+          13,
+          15
+        ]
+      ]
+    },
+    {
+      "name": "Akrexe initiative derivation",
+      "passed": true,
+      "detail": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Akrexe DR derivation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Akrexe skills derive",
+      "passed": true,
+      "detail": [
+        {
+          "acrobatics": 11,
+          "athletics": 12,
+          "climbing": 11,
+          "intimidate": 10,
+          "mentalFocus": 7,
+          "perception": 7,
+          "powerManipulation": 7,
+          "senseMotive": 7
+        },
+        {
+          "acrobatics": 11,
+          "athletics": 12,
+          "climbing": 11,
+          "intimidate": 10,
+          "mentalFocus": 7,
+          "perception": 7,
+          "powerManipulation": 7,
+          "senseMotive": 7
+        }
+      ]
+    },
+    {
+      "name": "Akrexe Claw attack derives",
+      "passed": true,
+      "detail": [
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Akrexe Claw damage derives",
+      "passed": true,
+      "detail": [
+        "2d6+4",
+        "2d6+4",
+        "1d6"
+      ]
+    },
+    {
+      "name": "Akrexe Ranseur attack derives",
+      "passed": true,
+      "detail": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Akrexe Ranseur damage derives",
+      "passed": true,
+      "detail": [
+        "2d12+7",
+        "2d12+7",
+        "1d12+3"
+      ]
+    },
+    {
+      "name": "Akrexe plain text descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Akrexe artwork exists",
+      "passed": true,
+      "detail": "assets/creatures/Akrexe.png"
+    },
+    {
+      "name": "Aroch item refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Aroch effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Aroch ability derivation",
+      "passed": true,
+      "detail": [
+        [
+          4,
+          4,
+          4,
+          2,
+          3,
+          2
+        ],
+        [
+          4,
+          4,
+          4,
+          2,
+          3,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "Aroch HP derivation",
+      "passed": true,
+      "detail": [
+        143,
+        143
+      ]
+    },
+    {
+      "name": "Aroch DB derivation",
+      "passed": true,
+      "detail": [
+        25,
+        25
+      ]
+    },
+    {
+      "name": "Aroch save derivation",
+      "passed": true,
+      "detail": [
+        [
+          18,
+          15,
+          19
+        ],
+        [
+          18,
+          15,
+          19
+        ]
+      ]
+    },
+    {
+      "name": "Aroch initiative derivation",
+      "passed": true,
+      "detail": [
+        35,
+        35
+      ]
+    },
+    {
+      "name": "Aroch DR derivation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Aroch skills derive",
+      "passed": true,
+      "detail": [
+        {
+          "acrobatics": 13,
+          "athletics": 12,
+          "climbing": 12,
+          "intimidate": 10,
+          "mentalFocus": 11,
+          "perception": 11,
+          "planes": 10,
+          "religion": 11,
+          "senseMotive": 11,
+          "stealth": 12,
+          "thievery": 12
+        },
+        {
+          "acrobatics": 13,
+          "athletics": 12,
+          "climbing": 12,
+          "intimidate": 10,
+          "mentalFocus": 11,
+          "perception": 11,
+          "planes": 10,
+          "religion": 11,
+          "senseMotive": 11,
+          "stealth": 12,
+          "thievery": 12
+        }
+      ]
+    },
+    {
+      "name": "Aroch Bite attack derives",
+      "passed": true,
+      "detail": [
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Aroch Bite damage derives",
+      "passed": true,
+      "detail": [
+        "2d8+4",
+        "2d8+4",
+        "1d8"
+      ]
+    },
+    {
+      "name": "Aroch Claw attack derives",
+      "passed": true,
+      "detail": [
+        14,
+        14
+      ]
+    },
+    {
+      "name": "Aroch Claw damage derives",
+      "passed": true,
+      "detail": [
+        "2d6+4",
+        "2d6+4",
+        "1d6"
+      ]
+    },
+    {
+      "name": "Aroch Long Spear attack derives",
+      "passed": true,
+      "detail": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Aroch Long Spear damage derives",
+      "passed": true,
+      "detail": [
+        "2d8+7",
+        "2d8+7",
+        "1d8+3"
+      ]
+    },
+    {
+      "name": "Aroch plain text descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Aroch artwork exists",
+      "passed": true,
+      "detail": "assets/creatures/Aroch.png"
+    },
+    {
+      "name": "Balor item refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Balor effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Balor ability derivation",
+      "passed": true,
+      "detail": [
+        [
+          9,
+          9,
+          7,
+          6,
+          6,
+          6
+        ],
+        [
+          9,
+          9,
+          7,
+          6,
+          6,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "Balor HP derivation",
+      "passed": true,
+      "detail": [
+        465,
+        465
+      ]
+    },
+    {
+      "name": "Balor DB derivation",
+      "passed": true,
+      "detail": [
+        51,
+        51
+      ]
+    },
+    {
+      "name": "Balor save derivation",
+      "passed": true,
+      "detail": [
+        [
+          36,
+          31,
+          33
+        ],
+        [
+          36,
+          31,
+          33
+        ]
+      ]
+    },
+    {
+      "name": "Balor initiative derivation",
+      "passed": true,
+      "detail": [
+        65,
+        65
+      ]
+    },
+    {
+      "name": "Balor DR derivation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Balor skills derive",
+      "passed": true,
+      "detail": [
+        {
+          "acrobatics": 33,
+          "arcana": 26,
+          "athletics": 35,
+          "culture": 26,
+          "deception": 32,
+          "diplomacy": 22,
+          "intimidate": 32,
+          "linguistics": 21,
+          "mentalFocus": 30,
+          "perception": 28,
+          "planes": 28,
+          "powerManipulation": 28,
+          "religion": 28,
+          "senseMotive": 28,
+          "stealth": 28
+        },
+        {
+          "acrobatics": 33,
+          "arcana": 26,
+          "athletics": 35,
+          "culture": 26,
+          "deception": 32,
+          "diplomacy": 22,
+          "intimidate": 32,
+          "linguistics": 21,
+          "mentalFocus": 30,
+          "perception": 28,
+          "planes": 28,
+          "powerManipulation": 28,
+          "religion": 28,
+          "senseMotive": 28,
+          "stealth": 28
+        }
+      ]
+    },
+    {
+      "name": "Balor Vorpal Adamantine Broadsword attack derives",
+      "passed": true,
+      "detail": [
+        41,
+        41
+      ]
+    },
+    {
+      "name": "Balor Vorpal Adamantine Broadsword damage derives",
+      "passed": true,
+      "detail": [
+        "5d10+15",
+        "5d10+15",
+        "2d10+6"
+      ]
+    },
+    {
+      "name": "Balor Mithril Whip attack derives",
+      "passed": true,
+      "detail": [
+        41,
+        41
+      ]
+    },
+    {
+      "name": "Balor Mithril Whip damage derives",
+      "passed": true,
+      "detail": [
+        "4d6+10",
+        "4d6+10",
+        "1d6+1"
+      ]
+    },
+    {
+      "name": "Balor Claw attack derives",
+      "passed": true,
+      "detail": [
+        39,
+        39
+      ]
+    },
+    {
+      "name": "Balor Claw damage derives",
+      "passed": true,
+      "detail": [
+        "4d10+9",
+        "4d10+9",
+        "1d10"
+      ]
+    },
+    {
+      "name": "Balor plain text descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Balor artwork exists",
+      "passed": true,
+      "detail": "assets/creatures/Balor.png"
+    },
+    {
+      "name": "Dretch item refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dretch effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dretch ability derivation",
+      "passed": true,
+      "detail": [
+        [
+          1,
+          3,
+          0,
+          -2,
+          0,
+          0
+        ],
+        [
+          1,
+          3,
+          0,
+          -2,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Dretch HP derivation",
+      "passed": true,
+      "detail": [
+        71,
+        71
+      ]
+    },
+    {
+      "name": "Dretch DB derivation",
+      "passed": true,
+      "detail": [
+        13,
+        13
+      ]
+    },
+    {
+      "name": "Dretch save derivation",
+      "passed": true,
+      "detail": [
+        [
+          12,
+          6,
+          9
+        ],
+        [
+          12,
+          6,
+          9
+        ]
+      ]
+    },
+    {
+      "name": "Dretch initiative derivation",
+      "passed": true,
+      "detail": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Dretch DR derivation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dretch skills derive",
+      "passed": true,
+      "detail": [
+        {
+          "acrobatics": 4,
+          "athletics": 5,
+          "climbing": 3,
+          "perception": 3,
+          "stealth": 3,
+          "survival": 3
+        },
+        {
+          "acrobatics": 4,
+          "athletics": 5,
+          "climbing": 3,
+          "perception": 3,
+          "stealth": 3,
+          "survival": 3
+        }
+      ]
+    },
+    {
+      "name": "Dretch Bite attack derives",
+      "passed": true,
+      "detail": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Dretch Bite damage derives",
+      "passed": true,
+      "detail": [
+        "1d6+1",
+        "1d6+1",
+        "1d6"
+      ]
+    },
+    {
+      "name": "Dretch Claw attack derives",
+      "passed": true,
+      "detail": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "Dretch Claw damage derives",
+      "passed": true,
+      "detail": [
+        "1d5+1",
+        "1d5+1",
+        "1d5"
+      ]
+    },
+    {
+      "name": "Dretch plain text descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dretch artwork exists",
+      "passed": true,
+      "detail": "assets/creatures/Dretch.png"
+    },
+    {
+      "name": "Hantya item refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hantya effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hantya ability derivation",
+      "passed": true,
+      "detail": [
+        [
+          7,
+          5,
+          2,
+          3,
+          3,
+          6
+        ],
+        [
+          7,
+          5,
+          2,
+          3,
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "name": "Hantya HP derivation",
+      "passed": true,
+      "detail": [
+        260,
+        260
+      ]
+    },
+    {
+      "name": "Hantya DB derivation",
+      "passed": true,
+      "detail": [
+        33,
+        33
+      ]
+    },
+    {
+      "name": "Hantya save derivation",
+      "passed": true,
+      "detail": [
+        [
+          25,
+          19,
+          23
+        ],
+        [
+          25,
+          19,
+          23
+        ]
+      ]
+    },
+    {
+      "name": "Hantya initiative derivation",
+      "passed": true,
+      "detail": [
+        25,
+        25
+      ]
+    },
+    {
+      "name": "Hantya DR derivation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hantya skills derive",
+      "passed": true,
+      "detail": [
+        {
+          "athletics": 24,
+          "climbing": 11,
+          "culture": 10,
+          "deception": 23,
+          "diplomacy": 19,
+          "intimidate": 23,
+          "mentalFocus": 16,
+          "perception": 16,
+          "planes": 15,
+          "powerManipulation": 15,
+          "religion": 12,
+          "senseMotive": 16,
+          "stealth": 11,
+          "survival": 15
+        },
+        {
+          "athletics": 24,
+          "climbing": 11,
+          "culture": 10,
+          "deception": 23,
+          "diplomacy": 19,
+          "intimidate": 23,
+          "mentalFocus": 16,
+          "perception": 16,
+          "planes": 15,
+          "powerManipulation": 15,
+          "religion": 12,
+          "senseMotive": 16,
+          "stealth": 11,
+          "survival": 15
+        }
+      ]
+    },
+    {
+      "name": "Hantya Bite attack derives",
+      "passed": true,
+      "detail": [
+        26,
+        26
+      ]
+    },
+    {
+      "name": "Hantya Bite damage derives",
+      "passed": true,
+      "detail": [
+        "3d10+7",
+        "3d10+7",
+        "1d10"
+      ]
+    },
+    {
+      "name": "Hantya Claw attack derives",
+      "passed": true,
+      "detail": [
+        27,
+        27
+      ]
+    },
+    {
+      "name": "Hantya Claw damage derives",
+      "passed": true,
+      "detail": [
+        "3d8+7",
+        "3d8+7",
+        "1d8"
+      ]
+    },
+    {
+      "name": "Hantya plain text descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hantya artwork exists",
+      "passed": true,
+      "detail": "assets/creatures/Hantya.png"
+    },
+    {
+      "name": "Akrexe innate repertoire exact",
+      "passed": true,
+      "detail": [
+        {
+          "Fire Bolt": [
+            4,
+            "focus"
+          ],
+          "Detect Aura": [
+            2,
+            "at will"
+          ]
+        },
+        {
+          "Fire Bolt": [
+            4,
+            "focus"
+          ],
+          "Detect Aura": [
+            2,
+            "at will"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Akrexe all innate true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Aroch innate repertoire exact",
+      "passed": true,
+      "detail": [
+        {
+          "Dimension Door": [
+            8,
+            "focus"
+          ],
+          "See Invisible": [
+            4,
+            "constant"
+          ],
+          "Darkness": [
+            4,
+            "at will"
+          ]
+        },
+        {
+          "Dimension Door": [
+            8,
+            "focus"
+          ],
+          "See Invisible": [
+            4,
+            "constant"
+          ],
+          "Darkness": [
+            4,
+            "at will"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aroch all innate true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Balor innate repertoire exact",
+      "passed": true,
+      "detail": [
+        {
+          "True Seeing": [
+            14,
+            "constant"
+          ],
+          "Divine Decree": [
+            14,
+            "focus"
+          ],
+          "Dominate": [
+            14,
+            "focus"
+          ],
+          "Dimension Door": [
+            8,
+            "focus"
+          ],
+          "Hurling": [
+            0,
+            "at will"
+          ]
+        },
+        {
+          "True Seeing": [
+            14,
+            "constant"
+          ],
+          "Divine Decree": [
+            14,
+            "focus"
+          ],
+          "Dominate": [
+            14,
+            "focus"
+          ],
+          "Dimension Door": [
+            8,
+            "focus"
+          ],
+          "Hurling": [
+            0,
+            "at will"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Balor all innate true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dretch innate repertoire exact",
+      "passed": true,
+      "detail": [
+        {
+          "Slow": [
+            6,
+            "at will"
+          ],
+          "Fear": [
+            2,
+            "at will"
+          ]
+        },
+        {
+          "Slow": [
+            6,
+            "at will"
+          ],
+          "Fear": [
+            2,
+            "at will"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dretch all innate true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hantya innate repertoire exact",
+      "passed": true,
+      "detail": [
+        {
+          "True Seeing": [
+            14,
+            "focus"
+          ],
+          "Confusion": [
+            8,
+            "focus"
+          ],
+          "Dimension Door": [
+            8,
+            "focus"
+          ],
+          "Mirror Image": [
+            6,
+            "focus"
+          ],
+          "Mirage Object": [
+            2,
+            "at will"
+          ],
+          "Self Mirage": [
+            2,
+            "at will"
+          ],
+          "Hurling": [
+            0,
+            "at will"
+          ]
+        },
+        {
+          "True Seeing": [
+            14,
+            "focus"
+          ],
+          "Confusion": [
+            8,
+            "focus"
+          ],
+          "Dimension Door": [
+            8,
+            "focus"
+          ],
+          "Mirror Image": [
+            6,
+            "focus"
+          ],
+          "Mirage Object": [
+            2,
+            "at will"
+          ],
+          "Self Mirage": [
+            2,
+            "at will"
+          ],
+          "Hurling": [
+            0,
+            "at will"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hantya all innate true",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Akrexe Fire Bolt 4 notation preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Balor two weapon focus groups",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Hantya Bite local -1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Dretch no Abyssal Healing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Type index 280",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Type index new Eternals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "script unchanged template-framework.mjs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "script unchanged dragon-framework.mjs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "script unchanged creature-compendium-filter.mjs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "module version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC creatures/000004.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC creatures/000007.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC races/000004.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC races/000007.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC heritages/000004.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC heritages/000007.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC abilities/000004.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC abilities/000007.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC templates/000004.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC templates/000007.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ZIP integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ZIP one module folder",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ZIP file set exact",
+      "passed": true,
+      "detail": [
+        522,
+        522
+      ]
+    },
+    {
+      "name": "ZIP byte-for-byte round-trip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ZIP round-trip 280 actors",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "package": {
+    "file": "Fiends-and-Fables-Prime-0.10.6.zip",
+    "sizeBytes": 68996397,
+    "sha256": "bd9fb7849a9635935e50b7b4499352ee372cca882756cf512d16d19a022887a6",
+    "fileCount": 522,
+    "roundTripExact": true
+  }
+}

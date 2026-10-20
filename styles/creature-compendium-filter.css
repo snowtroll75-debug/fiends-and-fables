@@ -1,0 +1,43 @@
+.ffp-creature-type-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.4rem;
+  margin: 0.35rem 0.5rem 0.45rem;
+  padding: 0.45rem;
+  border: 1px solid var(--color-border-light-tertiary, #7a7971);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.ffp-creature-type-field {
+  display: flex;
+  flex: 1 1 12rem;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 10rem;
+}
+
+.ffp-creature-type-field > span {
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  opacity: 0.82;
+}
+
+.ffp-creature-type-clear {
+  flex: 0 0 auto;
+  height: 1.75rem;
+  margin: 0;
+  line-height: 1;
+}
+
+.ffp-creature-type-summary {
+  flex: 1 1 100%;
+  font-size: 0.75rem;
+  opacity: 0.78;
+}
+
+.ffp-type-hidden {
+  display: none !important;
+}

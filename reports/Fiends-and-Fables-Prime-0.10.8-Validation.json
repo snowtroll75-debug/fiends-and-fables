@@ -1,0 +1,774 @@
+{
+  "version": "0.10.8",
+  "batch": [
+    "Vrock",
+    "Werebat",
+    "Werebear",
+    "Wereboar",
+    "Werecat"
+  ],
+  "summary": {
+    "passed": 104,
+    "total": 104
+  },
+  "checks": [
+    {
+      "check": "creatures WAL CRC 000007.log",
+      "passed": true,
+      "detail": {
+        "records": 450,
+        "bad": []
+      }
+    },
+    {
+      "check": "races WAL CRC 000007.log",
+      "passed": true,
+      "detail": {
+        "records": 44,
+        "bad": []
+      }
+    },
+    {
+      "check": "heritages WAL CRC 000007.log",
+      "passed": true,
+      "detail": {
+        "records": 53,
+        "bad": []
+      }
+    },
+    {
+      "check": "templates WAL CRC 000007.log",
+      "passed": true,
+      "detail": {
+        "records": 3,
+        "bad": []
+      }
+    },
+    {
+      "check": "manifest version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Creature Actor count 290",
+      "passed": true,
+      "detail": 290
+    },
+    {
+      "check": "Vrock unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebat unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebear unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereboar unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 285 previous roots byte-identical",
+      "passed": true,
+      "detail": "285/285"
+    },
+    {
+      "check": "Templates pack logical KV unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/template-framework.mjs unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/template-framework.mjs node syntax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/dragon-framework.mjs unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/dragon-framework.mjs node syntax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/creature-compendium-filter.mjs unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/creature-compendium-filter.mjs node syntax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "top-level Lycanthrope Race unique",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top-level Demon Race remains unique",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top Heritage Vrock",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top Heritage Werebat",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top Heritage Werebear",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top Heritage Wereboar",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top Heritage Werecat",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "Vrock approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 6.0,
+          "constitution": 5.0,
+          "dexterity": 4.0,
+          "intelligence": 2.0,
+          "wisdom": 3.0,
+          "charisma": 3.0
+        },
+        {
+          "strength": 6,
+          "constitution": 5,
+          "dexterity": 4,
+          "intelligence": 2,
+          "wisdom": 3,
+          "charisma": 3
+        }
+      ]
+    },
+    {
+      "check": "Vrock HP derives",
+      "passed": true,
+      "detail": [
+        245,
+        245
+      ]
+    },
+    {
+      "check": "Vrock DB derives",
+      "passed": true,
+      "detail": [
+        34,
+        34
+      ]
+    },
+    {
+      "check": "Vrock saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 24,
+          "reflex": 22,
+          "will": 22
+        },
+        {
+          "fortitude": 24,
+          "reflex": 22,
+          "will": 22
+        }
+      ]
+    },
+    {
+      "check": "Vrock initiative derives",
+      "passed": true,
+      "detail": [
+        35,
+        35
+      ]
+    },
+    {
+      "check": "Vrock DR derives",
+      "passed": true,
+      "detail": [
+        12,
+        12
+      ]
+    },
+    {
+      "check": "Vrock embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp_next/fiends-and-fables-prime/assets/creatures/Vrock.png"
+    },
+    {
+      "check": "Werebat approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 3.0,
+          "constitution": 3.0,
+          "dexterity": 4.0,
+          "intelligence": 1,
+          "wisdom": 3.0,
+          "charisma": -1.0
+        },
+        {
+          "strength": 3,
+          "constitution": 3,
+          "dexterity": 4,
+          "intelligence": 1,
+          "wisdom": 3,
+          "charisma": -1
+        }
+      ]
+    },
+    {
+      "check": "Werebat HP derives",
+      "passed": true,
+      "detail": [
+        78,
+        78
+      ]
+    },
+    {
+      "check": "Werebat DB derives",
+      "passed": true,
+      "detail": [
+        18,
+        18
+      ]
+    },
+    {
+      "check": "Werebat saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 10,
+          "reflex": 14,
+          "will": 5
+        },
+        {
+          "fortitude": 10,
+          "reflex": 14,
+          "will": 5
+        }
+      ]
+    },
+    {
+      "check": "Werebat initiative derives",
+      "passed": true,
+      "detail": [
+        35,
+        35
+      ]
+    },
+    {
+      "check": "Werebat DR derives",
+      "passed": true,
+      "detail": [
+        1,
+        1
+      ]
+    },
+    {
+      "check": "Werebat embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebat descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebat artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp_next/fiends-and-fables-prime/assets/creatures/Werebat.png"
+    },
+    {
+      "check": "Werebear approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 5.0,
+          "constitution": 4.0,
+          "dexterity": 2.0,
+          "intelligence": 1,
+          "wisdom": 2.0,
+          "charisma": -1.0
+        },
+        {
+          "strength": 5,
+          "constitution": 4,
+          "dexterity": 2,
+          "intelligence": 1,
+          "wisdom": 2,
+          "charisma": -1
+        }
+      ]
+    },
+    {
+      "check": "Werebear HP derives",
+      "passed": true,
+      "detail": [
+        159,
+        159
+      ]
+    },
+    {
+      "check": "Werebear DB derives",
+      "passed": true,
+      "detail": [
+        22,
+        22
+      ]
+    },
+    {
+      "check": "Werebear saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 17,
+          "reflex": 10,
+          "will": 9
+        },
+        {
+          "fortitude": 17,
+          "reflex": 10,
+          "will": 9
+        }
+      ]
+    },
+    {
+      "check": "Werebear initiative derives",
+      "passed": true,
+      "detail": [
+        20,
+        20
+      ]
+    },
+    {
+      "check": "Werebear DR derives",
+      "passed": true,
+      "detail": [
+        2,
+        2
+      ]
+    },
+    {
+      "check": "Werebear embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebear descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebear artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp_next/fiends-and-fables-prime/assets/creatures/Werebear.png"
+    },
+    {
+      "check": "Wereboar approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 3.0,
+          "constitution": 4.0,
+          "dexterity": 1.0,
+          "intelligence": 0.0,
+          "wisdom": 3.0,
+          "charisma": -1.0
+        },
+        {
+          "strength": 3,
+          "constitution": 4,
+          "dexterity": 1,
+          "intelligence": 0,
+          "wisdom": 3,
+          "charisma": -1
+        }
+      ]
+    },
+    {
+      "check": "Wereboar HP derives",
+      "passed": true,
+      "detail": [
+        70,
+        70
+      ]
+    },
+    {
+      "check": "Wereboar DB derives",
+      "passed": true,
+      "detail": [
+        17,
+        17
+      ]
+    },
+    {
+      "check": "Wereboar saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 15,
+          "reflex": 7,
+          "will": 6
+        },
+        {
+          "fortitude": 15,
+          "reflex": 7,
+          "will": 6
+        }
+      ]
+    },
+    {
+      "check": "Wereboar initiative derives",
+      "passed": true,
+      "detail": [
+        20,
+        20
+      ]
+    },
+    {
+      "check": "Wereboar DR derives",
+      "passed": true,
+      "detail": [
+        1,
+        1
+      ]
+    },
+    {
+      "check": "Wereboar embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereboar descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereboar artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp_next/fiends-and-fables-prime/assets/creatures/Wereboar.png"
+    },
+    {
+      "check": "Werecat approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 4.0,
+          "constitution": 3.0,
+          "dexterity": 4.0,
+          "intelligence": 0.0,
+          "wisdom": 4.0,
+          "charisma": -2.0
+        },
+        {
+          "strength": 4,
+          "constitution": 3,
+          "dexterity": 4,
+          "intelligence": 0,
+          "wisdom": 4,
+          "charisma": -2
+        }
+      ]
+    },
+    {
+      "check": "Werecat HP derives",
+      "passed": true,
+      "detail": [
+        133,
+        133
+      ]
+    },
+    {
+      "check": "Werecat DB derives",
+      "passed": true,
+      "detail": [
+        28,
+        28
+      ]
+    },
+    {
+      "check": "Werecat saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 13,
+          "reflex": 17,
+          "will": 11
+        },
+        {
+          "fortitude": 13,
+          "reflex": 17,
+          "will": 11
+        }
+      ]
+    },
+    {
+      "check": "Werecat initiative derives",
+      "passed": true,
+      "detail": [
+        60,
+        60
+      ]
+    },
+    {
+      "check": "Werecat DR derives",
+      "passed": true,
+      "detail": [
+        2,
+        2
+      ]
+    },
+    {
+      "check": "Werecat embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp_next/fiends-and-fables-prime/assets/creatures/Werecat.png"
+    },
+    {
+      "check": "Vrock item Cloud of Spores",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock item Dance of Ruin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock item Stunning Screech",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock item Bite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock item Claw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock item Dimension Door",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock item Mirror Image",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Vrock Dimension Door Divinity Focus innate",
+      "passed": true,
+      "detail": {
+        "source": "TRG Prime Fiends & Fables 2.7",
+        "coreRulesSource": "TRG Prime Core 3.2",
+        "sourceInnate": true,
+        "sourceUsage": "focus",
+        "printedPP": 8,
+        "focus": true,
+        "tradition": "divinity",
+        "printedModifier": 15,
+        "printedDC": 25
+      }
+    },
+    {
+      "check": "Vrock Mirror Image Divinity Focus innate",
+      "passed": true,
+      "detail": {
+        "source": "TRG Prime Fiends & Fables 2.7",
+        "coreRulesSource": "TRG Prime Core 3.2",
+        "sourceInnate": true,
+        "sourceUsage": "focus",
+        "printedPP": 6,
+        "focus": true,
+        "tradition": "divinity",
+        "printedModifier": 15,
+        "printedDC": 25
+      }
+    },
+    {
+      "check": "Werebat common lycan ability Animal Empathy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebat common lycan ability Luna Frenzy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebat common lycan ability Lycanthropic Curse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebat common lycan ability Shift Form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebear common lycan ability Animal Empathy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebear common lycan ability Luna Frenzy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebear common lycan ability Lycanthropic Curse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebear common lycan ability Shift Form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereboar common lycan ability Animal Empathy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereboar common lycan ability Luna Frenzy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereboar common lycan ability Lycanthropic Curse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereboar common lycan ability Shift Form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat common lycan ability Animal Empathy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat common lycan ability Luna Frenzy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat common lycan ability Lycanthropic Curse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat common lycan ability Shift Form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat has 20 arrows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat shortbow requires ammunition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werecat Stealthy Strike 2d6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereboar Diehard effect",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werebear split handaxe modes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "type index count 290",
+      "passed": true,
+      "detail": 290
+    },
+    {
+      "check": "type index ids unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "type index names include batch",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "liveFoundrySmokeTest": "not performed",
+  "archive": {
+    "integrity": "passed",
+    "singleTopLevelFolder": "fiends-and-fables-prime",
+    "fileCount": 528
+  }
+}

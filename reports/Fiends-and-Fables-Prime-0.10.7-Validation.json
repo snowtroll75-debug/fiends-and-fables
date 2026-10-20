@@ -1,0 +1,664 @@
+{
+  "version": "0.10.7",
+  "recovery": true,
+  "baseline": "Fiends-and-Fables-Prime-0.10.6(1).zip",
+  "batch": [
+    "Khavar",
+    "Marilith",
+    "Quasit",
+    "Succubus",
+    "Thel"
+  ],
+  "summary": {
+    "passed": 114,
+    "total": 114,
+    "allPassed": true
+  },
+  "newActorIds": {
+    "Khavar": "f80f7e1dcc23d322",
+    "Marilith": "3dee56aa17bc60af",
+    "Quasit": "3b2fe6d148399dc7",
+    "Succubus": "8cd476fabf0dfac4",
+    "Thel": "4a411d6c5ffb22fb"
+  },
+  "newHeritageIds": {
+    "Khavar": "bff75cd38ce7c17b",
+    "Marilith": "ff7fc153132ac85c",
+    "Quasit": "dd92a9bc358db0c3",
+    "Succubus": "e6bc38c016c14801",
+    "Thel": "a8d1ccd71f747971"
+  },
+  "checks": [
+    {
+      "name": "Creature Actor count 285",
+      "passed": true,
+      "detail": 285
+    },
+    {
+      "name": "All 280 baseline Actor root values unchanged",
+      "passed": true,
+      "detail": 280
+    },
+    {
+      "name": "Khavar actor present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar artwork exists",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Khavar.png"
+    },
+    {
+      "name": "Khavar allocation legal",
+      "passed": true,
+      "detail": [
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Khavar final source abilities recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar embedded item/effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar plain item descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar exact innate names",
+      "passed": true,
+      "detail": [
+        "True Seeing",
+        "Dimension Door",
+        "Divine Wrath",
+        "Fear",
+        "Mirage Object",
+        "Hurling"
+      ]
+    },
+    {
+      "name": "Marilith actor present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith artwork exists",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Marilith.png"
+    },
+    {
+      "name": "Marilith allocation legal",
+      "passed": true,
+      "detail": [
+        11,
+        11
+      ]
+    },
+    {
+      "name": "Marilith final source abilities recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith embedded item/effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith plain item descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith exact innate names",
+      "passed": true,
+      "detail": [
+        "True Seeing",
+        "Wall of Blade",
+        "Dimension Door",
+        "Spiritual Weapon"
+      ]
+    },
+    {
+      "name": "Quasit actor present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit artwork exists",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Quasit.png"
+    },
+    {
+      "name": "Quasit allocation legal",
+      "passed": true,
+      "detail": [
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Quasit final source abilities recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit embedded item/effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit plain item descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit exact innate names",
+      "passed": true,
+      "detail": [
+        "Invisibility",
+        "Detect Aura",
+        "Fear"
+      ]
+    },
+    {
+      "name": "Succubus actor present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus artwork exists",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Succubus.png"
+    },
+    {
+      "name": "Succubus allocation legal",
+      "passed": true,
+      "detail": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Succubus final source abilities recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus embedded item/effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus plain item descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus exact innate names",
+      "passed": true,
+      "detail": [
+        "Dominate",
+        "Dimension Door",
+        "Suggestion",
+        "Mind Reading",
+        "Shape of the Humanoid",
+        "Charm Kind",
+        "Detect Aura"
+      ]
+    },
+    {
+      "name": "Thel actor present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel artwork exists",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Thel.png"
+    },
+    {
+      "name": "Thel allocation legal",
+      "passed": true,
+      "detail": [
+        9,
+        9
+      ]
+    },
+    {
+      "name": "Thel final source abilities recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel embedded item/effect refs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel plain item descriptions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel exact innate names",
+      "passed": true,
+      "detail": [
+        "Possession",
+        "Shadow Blast",
+        "Dimension Door",
+        "Phantasmal Killer",
+        "Darkness",
+        "Invisibility",
+        "See Invisible",
+        "Fear",
+        "Hurling"
+      ]
+    },
+    {
+      "name": "Khavar top-level Heritage present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith top-level Heritage present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit top-level Heritage present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus top-level Heritage present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel top-level Heritage present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Type index 285",
+      "passed": true,
+      "detail": 285
+    },
+    {
+      "name": "Type index new Eternals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit Venom has no invented Stage 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit Shifting four forms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel fly-only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Broadsword quantity six",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Wall of Blade structured",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Spiritual Weapon sustained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Claw BAB-safe stored base",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar True Seeing native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar True Seeing usage constant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Dimension Door native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Dimension Door usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Divine Wrath native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Divine Wrath usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Fear native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Fear usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Mirage Object native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Mirage Object usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Hurling native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Khavar Hurling usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith True Seeing native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith True Seeing usage constant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Wall of Blade native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Wall of Blade usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Dimension Door native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Dimension Door usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Spiritual Weapon native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Marilith Spiritual Weapon usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit Invisibility native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit Invisibility usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit Detect Aura native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit Detect Aura usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit Fear native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quasit Fear usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Dominate native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Dominate usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Dimension Door native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Dimension Door usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Suggestion native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Suggestion usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Mind Reading native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Mind Reading usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Shape of the Humanoid native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Shape of the Humanoid usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Charm Kind native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Charm Kind usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Detect Aura native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Succubus Detect Aura usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Possession native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Possession usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Shadow Blast native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Shadow Blast usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Dimension Door native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Dimension Door usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Phantasmal Killer native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Phantasmal Killer usage focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Darkness native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Darkness usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Invisibility native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Invisibility usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel See Invisible native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel See Invisible usage constant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Fear native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Fear usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Hurling native Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Thel Hurling usage at will",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "script unchanged scripts/template-framework.mjs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "script unchanged scripts/dragon-framework.mjs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "script unchanged scripts/creature-compendium-filter.mjs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "WAL CRC creatures/000007.log",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "WAL CRC heritages/000007.log",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "liveFoundryUISmokeTest": {
+    "performed": false
+  },
+  "package": {
+    "file": "Fiends-and-Fables-Prime-0.10.7-Recovered.zip",
+    "fileCount": 525,
+    "singleTopFolder": [
+      "fiends-and-fables-prime"
+    ],
+    "zipIntegrity": "passed",
+    "note": "Final archive SHA-256 is calculated externally after packaging to avoid self-referential report data."
+  }
+}

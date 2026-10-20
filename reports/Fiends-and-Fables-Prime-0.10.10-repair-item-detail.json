@@ -1,0 +1,126 @@
+[
+  {
+    "actor": "Bugbear",
+    "donor": "Bugbear Soldier",
+    "tierA": [
+      "[feat] \"Iron Will\"",
+      "[creature-type] \"Humanoid\"",
+      "[ability] \"Acute Sense (Smell)\"",
+      "[class] \"Tough (Creature Class)\"",
+      "[ability] \"Fearful Strength\"",
+      "[ability] \"Darkvision (55 ft.)\"",
+      "[feat] \"Thief\"",
+      "[feat] \"Stealthy Strike\"",
+      "[ability] \"Scent (55 ft.)\"",
+      "[feat] \"Sudden Charge\"",
+      "[feat] \"Power Attack\"",
+      "[feat] \"Toughness\""
+    ],
+    "tierB": [
+      "[weapon] \"Javelin\"",
+      "[weapon] \"Greatsword\"",
+      "[weapon] \"Unarmed Strike\"",
+      "[armour] \"Leather\""
+    ],
+    "raceHeritage": [
+      "race → \"Bugbear\" (canonical, from the module's own races pack)",
+      "heritage slot removed (base-form creature; donor's \"Bugbear Soldier\" heritage does not apply)"
+    ]
+  },
+  {
+    "actor": "Bulette",
+    "donor": "Behir",
+    "tierA": [
+      "[creature-type] \"Beast\"",
+      "[class] \"Beast (Creature Class)\"",
+      "[feat] \"Cleave\"",
+      "[feat] \"Power Attack\"",
+      "[feat] \"Trackless Step\""
+    ],
+    "tierB": [
+      "[ability] \"Darkvision (65 ft.)\"",
+      "[ability] \"Nightvision (130 ft.)\"",
+      "[ability] \"Monstrous Grab\"",
+      "[feat] \"Skill Focus (Awareness)\"",
+      "[ability] \"Swallow\"",
+      "[ability] \"Wise Skills\"",
+      "[ability] \"Constrict\"",
+      "[ability] \"Electricity Breath\"",
+      "[ability] \"Storm of Claws\"",
+      "[weapon] \"Bite\"",
+      "[weapon] \"Claw\""
+    ],
+    "raceHeritage": [
+      "race → \"Bulette\" (canonical, from the module's own races pack)"
+    ]
+  },
+  {
+    "actor": "Kothorn",
+    "donor": "Cave Bear",
+    "tierA": [
+      "[creature-type] \"Animal\"",
+      "[class] \"Animal (Creature Class)\"",
+      "[ability] \"Nightvision (110 ft.)\"",
+      "[ability] \"Scent (55 ft.)\"",
+      "[feat] \"Iron Will\"",
+      "[ability] \"Monstrous Grab\"",
+      "[feat] \"Sudden Charge\"",
+      "[feat] \"Toughness\""
+    ],
+    "tierB": [
+      "[feat] \"Skill Focus (Swim)\"",
+      "[weapon] \"Bite\"",
+      "[weapon] \"Claw\""
+    ],
+    "raceHeritage": [
+      "race → \"Boar\" (canonical, from the module's own races pack)",
+      "heritage → \"Kothorn\" (canonical, from the module's own heritages pack)"
+    ]
+  },
+  {
+    "actor": "Boar",
+    "donor": "Cave Bear",
+    "tierA": [
+      "[creature-type] \"Animal\"",
+      "[class] \"Animal (Creature Class)\"",
+      "[ability] \"Nightvision (110 ft.)\"",
+      "[ability] \"Scent (55 ft.)\"",
+      "[feat] \"Iron Will\"",
+      "[ability] \"Monstrous Grab\"",
+      "[feat] \"Sudden Charge\"",
+      "[feat] \"Toughness\""
+    ],
+    "tierB": [
+      "[feat] \"Skill Focus (Swim)\"",
+      "[weapon] \"Bite\"",
+      "[weapon] \"Claw\""
+    ],
+    "raceHeritage": [
+      "race → \"Boar\" (canonical, from the module's own races pack)",
+      "heritage slot removed (base-form creature; donor's \"Cave Bear\" heritage does not apply)"
+    ]
+  },
+  {
+    "actor": "Blink Dog, Alpha",
+    "donor": "Blink Dog",
+    "tierA": [
+      "[creature-type] \"Beast\"",
+      "[class] \"Beast (Creature Class)\"",
+      "[ability] \"Darkvision (70 ft.)\"",
+      "[ability] \"Nightvision (140 ft.)\"",
+      "[feat] \"Iron Will\"",
+      "[ability] \"Pack Attack\"",
+      "[feat] \"Weapon Finesse\"",
+      "[spell] \"Blink\"",
+      "[spell] \"Dimension Door\"",
+      "[spell] \"See Invisible\""
+    ],
+    "tierB": [
+      "[weapon] \"Bite\""
+    ],
+    "raceHeritage": [
+      "race → \"Blink Dog\" (canonical, from the module's own races pack)",
+      "heritage ADDED → \"Blink Dog, Alpha\" (new item slot; base Blink Dog had none)"
+    ]
+  }
+]

@@ -1,0 +1,728 @@
+{
+  "version": "0.10.9",
+  "batch": [
+    "Wererat",
+    "Wereraven",
+    "Werewolf",
+    "Mournkin"
+  ],
+  "summary": {
+    "passed": 108,
+    "total": 108
+  },
+  "checks": [
+    {
+      "check": "creatures WAL CRC 000007.log",
+      "passed": true,
+      "detail": {
+        "records": 457,
+        "bad": []
+      }
+    },
+    {
+      "check": "races WAL CRC 000007.log",
+      "passed": true,
+      "detail": {
+        "records": 45,
+        "bad": []
+      }
+    },
+    {
+      "check": "heritages WAL CRC 000007.log",
+      "passed": true,
+      "detail": {
+        "records": 54,
+        "bad": []
+      }
+    },
+    {
+      "check": "templates WAL CRC 000007.log",
+      "passed": true,
+      "detail": {
+        "records": 3,
+        "bad": []
+      }
+    },
+    {
+      "check": "manifest version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Creature Actor count 294",
+      "passed": true,
+      "detail": 294
+    },
+    {
+      "check": "Wererat unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin unique actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 290 previous roots byte-identical",
+      "passed": true,
+      "detail": "290/290"
+    },
+    {
+      "check": "races previous logical KV retained",
+      "passed": true,
+      "detail": "227/227"
+    },
+    {
+      "check": "heritages previous logical KV retained",
+      "passed": true,
+      "detail": "376/376"
+    },
+    {
+      "check": "abilities previous logical KV retained",
+      "passed": true,
+      "detail": "197/197"
+    },
+    {
+      "check": "afflictions previous logical KV retained",
+      "passed": true,
+      "detail": "0/0"
+    },
+    {
+      "check": "templates previous logical KV retained",
+      "passed": true,
+      "detail": "13/13"
+    },
+    {
+      "check": "Templates pack logical KV unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/template-framework.mjs unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/template-framework.mjs node syntax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/dragon-framework.mjs unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/dragon-framework.mjs node syntax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/creature-compendium-filter.mjs unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/creature-compendium-filter.mjs node syntax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "top-level Lycanthrope Race unique",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top-level Demon Race remains unique",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top Heritage Wererat",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top Heritage Wereraven",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top Heritage Werewolf",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "top-level Mournkin Race unique",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "Wererat approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 2.0,
+          "constitution": 2.0,
+          "dexterity": 4.0,
+          "intelligence": 0.0,
+          "wisdom": 3.0,
+          "charisma": 0.0
+        },
+        {
+          "strength": 2,
+          "constitution": 2,
+          "dexterity": 4,
+          "intelligence": 0,
+          "wisdom": 3,
+          "charisma": 0
+        }
+      ]
+    },
+    {
+      "check": "Wererat HP derives",
+      "passed": true,
+      "detail": [
+        65,
+        65
+      ]
+    },
+    {
+      "check": "Wererat DB derives",
+      "passed": true,
+      "detail": [
+        17,
+        17
+      ]
+    },
+    {
+      "check": "Wererat saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 6,
+          "reflex": 11,
+          "will": 4
+        },
+        {
+          "fortitude": 6,
+          "reflex": 11,
+          "will": 4
+        }
+      ]
+    },
+    {
+      "check": "Wererat initiative derives",
+      "passed": true,
+      "detail": [
+        35,
+        35
+      ]
+    },
+    {
+      "check": "Wererat DR derives",
+      "passed": true,
+      "detail": [
+        0,
+        0
+      ]
+    },
+    {
+      "check": "Wererat embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wererat descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wererat artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp109/fiends-and-fables-prime/assets/creatures/Wererat 2.png"
+    },
+    {
+      "check": "Wereraven approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 1.0,
+          "constitution": 3.0,
+          "dexterity": 5.0,
+          "intelligence": 2.0,
+          "wisdom": 3.0,
+          "charisma": 0.0
+        },
+        {
+          "strength": 1,
+          "constitution": 3,
+          "dexterity": 5,
+          "intelligence": 2,
+          "wisdom": 3,
+          "charisma": 0
+        }
+      ]
+    },
+    {
+      "check": "Wereraven HP derives",
+      "passed": true,
+      "detail": [
+        136,
+        136
+      ]
+    },
+    {
+      "check": "Wereraven DB derives",
+      "passed": true,
+      "detail": [
+        26,
+        26
+      ]
+    },
+    {
+      "check": "Wereraven saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 15,
+          "reflex": 14,
+          "will": 9
+        },
+        {
+          "fortitude": 15,
+          "reflex": 14,
+          "will": 9
+        }
+      ]
+    },
+    {
+      "check": "Wereraven initiative derives",
+      "passed": true,
+      "detail": [
+        40,
+        40
+      ]
+    },
+    {
+      "check": "Wereraven DR derives",
+      "passed": true,
+      "detail": [
+        0,
+        0
+      ]
+    },
+    {
+      "check": "Wereraven embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp109/fiends-and-fables-prime/assets/creatures/Wereraven.png"
+    },
+    {
+      "check": "Werewolf approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 4.0,
+          "constitution": 3.0,
+          "dexterity": 2,
+          "intelligence": -1.0,
+          "wisdom": 2.0,
+          "charisma": 0.0
+        },
+        {
+          "strength": 4,
+          "constitution": 3,
+          "dexterity": 2,
+          "intelligence": -1,
+          "wisdom": 2,
+          "charisma": 0
+        }
+      ]
+    },
+    {
+      "check": "Werewolf HP derives",
+      "passed": true,
+      "detail": [
+        107,
+        107
+      ]
+    },
+    {
+      "check": "Werewolf DB derives",
+      "passed": true,
+      "detail": [
+        18,
+        18
+      ]
+    },
+    {
+      "check": "Werewolf saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 12,
+          "reflex": 8,
+          "will": 5
+        },
+        {
+          "fortitude": 12,
+          "reflex": 8,
+          "will": 5
+        }
+      ]
+    },
+    {
+      "check": "Werewolf initiative derives",
+      "passed": true,
+      "detail": [
+        20,
+        20
+      ]
+    },
+    {
+      "check": "Werewolf DR derives",
+      "passed": true,
+      "detail": [
+        1,
+        1
+      ]
+    },
+    {
+      "check": "Werewolf embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp109/fiends-and-fables-prime/assets/creatures/Werewolf.png"
+    },
+    {
+      "check": "Mournkin approved Ability derivation",
+      "passed": true,
+      "detail": [
+        {
+          "strength": 1,
+          "constitution": 1,
+          "dexterity": 4.0,
+          "intelligence": 2.0,
+          "wisdom": 3.0,
+          "charisma": 1
+        },
+        {
+          "strength": 1,
+          "constitution": 1,
+          "dexterity": 4,
+          "intelligence": 2,
+          "wisdom": 3,
+          "charisma": 1
+        }
+      ]
+    },
+    {
+      "check": "Mournkin HP derives",
+      "passed": true,
+      "detail": [
+        99,
+        99
+      ]
+    },
+    {
+      "check": "Mournkin DB derives",
+      "passed": true,
+      "detail": [
+        24,
+        24
+      ]
+    },
+    {
+      "check": "Mournkin saves derive",
+      "passed": true,
+      "detail": [
+        {
+          "fortitude": 9,
+          "reflex": 15,
+          "will": 10
+        },
+        {
+          "fortitude": 9,
+          "reflex": 15,
+          "will": 10
+        }
+      ]
+    },
+    {
+      "check": "Mournkin initiative derives",
+      "passed": true,
+      "detail": [
+        55,
+        55
+      ]
+    },
+    {
+      "check": "Mournkin DR derives",
+      "passed": true,
+      "detail": [
+        2,
+        2
+      ]
+    },
+    {
+      "check": "Mournkin embedded refs resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin descriptions plain text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin artwork exists",
+      "passed": true,
+      "detail": "/mnt/data/ffp109/fiends-and-fables-prime/assets/creatures/Mournkin.png"
+    },
+    {
+      "check": "Wererat common lycan ability Animal Empathy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wererat common lycan ability Luna Frenzy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wererat common lycan ability Lycanthropic Curse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wererat common lycan ability Shift Form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven common lycan ability Animal Empathy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven common lycan ability Luna Frenzy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven common lycan ability Lycanthropic Curse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven common lycan ability Shift Form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf common lycan ability Animal Empathy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf common lycan ability Luna Frenzy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf common lycan ability Lycanthropic Curse",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf common lycan ability Shift Form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wererat has 20 bolts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wererat crossbow true missile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven has 20 arrows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wereraven shortbow missile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf has 20 arrows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Werewolf shortbow missile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Agile Strikes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Altered Cantrip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Aura of Power",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Class Training",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Divine Knight",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Evasion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Grave Authority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Grave-Touched Presence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Whispers of the Grave",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Grave Touch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Dagger (Expert, Potency I)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Leather",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Orb of Cold",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Stabilise",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Animate Dead",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin item Cure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin Leather DR 2",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "check": "Mournkin caster CL3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin caster Divinity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin PP15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin Stabilise learned cantrip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mournkin Grave Touch printed attack metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "type index count 294",
+      "passed": true,
+      "detail": 294
+    },
+    {
+      "check": "type index ids unique",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "type index names include batch",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "liveFoundrySmokeTest": "not performed"
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "actor": "Bugbear",
+    "unequipped": [
+      "Javelin"
+    ],
+    "resized": []
+  },
+  {
+    "actor": "Bugbear Soldier",
+    "unequipped": [
+      "Javelin"
+    ],
+    "resized": []
+  },
+  {
+    "actor": "Centaur",
+    "unequipped": [
+      "Spear"
+    ],
+    "resized": []
+  },
+  {
+    "actor": "Goblin Elite",
+    "unequipped": [
+      "Shortbow"
+    ],
+    "resized": [
+      "Shield: medium -> small"
+    ]
+  },
+  {
+    "actor": "Goblin Warrior",
+    "unequipped": [
+      "Shortbow"
+    ],
+    "resized": [
+      "Shield: medium -> small"
+    ]
+  },
+  {
+    "actor": "Lustrian Brave",
+    "unequipped": [
+      "Club (Thrown)",
+      "Javelin"
+    ],
+    "resized": []
+  },
+  {
+    "actor": "Lustrian Khrissk",
+    "unequipped": [
+      "Long Spear"
+    ],
+    "resized": []
+  },
+  {
+    "actor": "Skeleton Champion",
+    "unequipped": [
+      "Composite Shortbow"
+    ],
+    "resized": []
+  },
+  {
+    "actor": "Werebear",
+    "unequipped": [
+      "Handaxe (Thrown)"
+    ],
+    "resized": []
+  }
+]

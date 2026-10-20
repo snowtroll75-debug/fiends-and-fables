@@ -1,0 +1,1766 @@
+[
+  {
+    "id": "WxOz7yhgPRfRVkD4",
+    "name": "Aboleth",
+    "type": "Aberration",
+    "level": 8
+  },
+  {
+    "id": "015fc828becd96d4",
+    "name": "Aboleth Magi",
+    "type": "Aberration",
+    "level": 8
+  },
+  {
+    "id": "7560913548299d64",
+    "name": "Air",
+    "type": "Elemental",
+    "level": 1
+  },
+  {
+    "id": "1d63440071017220",
+    "name": "Air Primal - Briez",
+    "type": "Elemental",
+    "level": 3
+  },
+  {
+    "id": "d2c8e2216393c453",
+    "name": "Air Primal - Gayl",
+    "type": "Elemental",
+    "level": 7
+  },
+  {
+    "id": "60286b40984aeeb0",
+    "name": "Air Primal - Stourm",
+    "type": "Elemental",
+    "level": 11
+  },
+  {
+    "id": "613dc01a505733dd",
+    "name": "Air Primal - Tempast",
+    "type": "Elemental",
+    "level": 15
+  },
+  {
+    "id": "63299ffe59ea71ef",
+    "name": "Akrexe",
+    "type": "Eternal",
+    "level": 6
+  },
+  {
+    "id": "2a3eb9f71c543a68",
+    "name": "Angrenilir",
+    "type": "Eternal",
+    "level": 8
+  },
+  {
+    "id": "b8f1bde19bcc4e32",
+    "name": "Animus Armour",
+    "type": "Construct",
+    "level": 2
+  },
+  {
+    "id": "69c14619daf61fd4",
+    "name": "Animus Colossus",
+    "type": "Construct",
+    "level": 12
+  },
+  {
+    "id": "deff99b0424258c6",
+    "name": "Animus Statue",
+    "type": "Construct",
+    "level": 3
+  },
+  {
+    "id": "3b06631f30a8f65c",
+    "name": "Animus Statue, Giant",
+    "type": "Construct",
+    "level": 6
+  },
+  {
+    "id": "cce461f25fb06119",
+    "name": "Ankheg",
+    "type": "Beast",
+    "level": 3
+  },
+  {
+    "id": "58c573513d0651fc",
+    "name": "Ankheg, Queen",
+    "type": "Beast",
+    "level": 9
+  },
+  {
+    "id": "05a60e19dc397da2",
+    "name": "Ape",
+    "type": "Animal",
+    "level": 3
+  },
+  {
+    "id": "f789646461532e5d",
+    "name": "Ape Lord",
+    "type": "Animal",
+    "level": 8
+  },
+  {
+    "id": "262e75b0360f1030",
+    "name": "Arcane Lich",
+    "type": "Undead",
+    "level": 15
+  },
+  {
+    "id": "1ecf0dc12c4524a5",
+    "name": "Archangel",
+    "type": "Eternal",
+    "level": 20
+  },
+  {
+    "id": "9aa036f0d20537b2",
+    "name": "Aroch",
+    "type": "Eternal",
+    "level": 7
+  },
+  {
+    "id": "6f45988f1149d169",
+    "name": "Athach",
+    "type": "Humanoid",
+    "level": 12
+  },
+  {
+    "id": "e957f2178b17b566",
+    "name": "Avoral",
+    "type": "Eternal",
+    "level": 9
+  },
+  {
+    "id": "245b94aa1e7f6d90",
+    "name": "Azur",
+    "type": "Elemental",
+    "level": 2
+  },
+  {
+    "id": "ZYStrkZgLUAygVgO",
+    "name": "Azure Muck",
+    "type": "Ooze",
+    "level": 8
+  },
+  {
+    "id": "e22b75e5818aea4b",
+    "name": "Balor",
+    "type": "Eternal",
+    "level": 20
+  },
+  {
+    "id": "f88ad32105802ca5",
+    "name": "Banshee",
+    "type": "Undead",
+    "level": 17
+  },
+  {
+    "id": "74dddbc86b2a6b8a",
+    "name": "Banshee Dirge Singer",
+    "type": "Undead",
+    "level": 17
+  },
+  {
+    "id": "390676f9aad361d1",
+    "name": "Barghest",
+    "type": "Eternal",
+    "level": 4
+  },
+  {
+    "id": "fc4f6b4712ecd99b",
+    "name": "Basilisk",
+    "type": "Beast",
+    "level": 6
+  },
+  {
+    "id": "7f706d642bd8f707",
+    "name": "Bat Swarm",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "04aab8b4e518f9b5",
+    "name": "Behir",
+    "type": "Beast",
+    "level": 8
+  },
+  {
+    "id": "d4b13bdcb8535002",
+    "name": "Belkar",
+    "type": "Elemental",
+    "level": 6
+  },
+  {
+    "id": "95c9b8d84c1dc1c3",
+    "name": "Belkar Storm Lord",
+    "type": "Elemental",
+    "level": 10
+  },
+  {
+    "id": "af6493fddd435857",
+    "name": "Blightborn",
+    "type": "Fey",
+    "level": 13
+  },
+  {
+    "id": "9a58da1d40781e3a",
+    "name": "Blink Dog",
+    "type": "Beast",
+    "level": 2
+  },
+  {
+    "id": "f220e4f045337699",
+    "name": "Blink Dog, Alpha",
+    "type": "Beast",
+    "level": 5
+  },
+  {
+    "id": "ce9055b891b6ff4a",
+    "name": "Boar",
+    "type": "Animal",
+    "level": 2
+  },
+  {
+    "id": "4c224a7f1ef03cbe",
+    "name": "Bugbear",
+    "type": "Humanoid",
+    "level": 2
+  },
+  {
+    "id": "G0oRjdY3CWlzUiGG",
+    "name": "Bugbear Soldier",
+    "type": "Humanoid",
+    "level": 4
+  },
+  {
+    "id": "5bded37425b6c132",
+    "name": "Bulette",
+    "type": "Beast",
+    "level": 8
+  },
+  {
+    "id": "5dv1ASrazYXTbZcP",
+    "name": "Camel",
+    "type": "Animal",
+    "level": 3
+  },
+  {
+    "id": "0330b366cb89e849",
+    "name": "Cave Bear",
+    "type": "Animal",
+    "level": 6
+  },
+  {
+    "id": "a8f411a0ab174b99",
+    "name": "Cave Dragon, Scaleborn",
+    "type": "Wyrm",
+    "level": 4
+  },
+  {
+    "id": "b4c4cafcefcd05f8",
+    "name": "Cave Dragon, Sovereign",
+    "type": "Wyrm",
+    "level": 16
+  },
+  {
+    "id": "724bb8092cc9e61d",
+    "name": "Cave Dragon, Talon",
+    "type": "Wyrm",
+    "level": 10
+  },
+  {
+    "id": "45e7fd92f21787f8",
+    "name": "Cave Troll",
+    "type": "Humanoid",
+    "level": 11
+  },
+  {
+    "id": "efca668e653d9f70",
+    "name": "Centaur",
+    "type": "Beast",
+    "level": 3
+  },
+  {
+    "id": "8ec1f5e3ad7aecef",
+    "name": "Cheetah",
+    "type": "Animal",
+    "level": 3
+  },
+  {
+    "id": "776fb740c2f6087f",
+    "name": "Cherubim",
+    "type": "Eternal",
+    "level": 2
+  },
+  {
+    "id": "12fd2111af29d8f3",
+    "name": "Chuul",
+    "type": "Aberration",
+    "level": 8
+  },
+  {
+    "id": "BuDDm9zFdECvOhww",
+    "name": "Clay Golem",
+    "type": "Construct",
+    "level": 10
+  },
+  {
+    "id": "56a27920cd810270",
+    "name": "Cloaker",
+    "type": "Aberration",
+    "level": 5
+  },
+  {
+    "id": "ZjlTycNHU22f6P05",
+    "name": "Cloud Giant",
+    "type": "Humanoid",
+    "level": 16
+  },
+  {
+    "id": "841ae4b249856745",
+    "name": "Cloud Giant Shaman",
+    "type": "Humanoid",
+    "level": 16
+  },
+  {
+    "id": "98f64cca3dba9c92",
+    "name": "Cockatrice",
+    "type": "Beast",
+    "level": 3
+  },
+  {
+    "id": "20737dcdf562e645",
+    "name": "Cold Dragon, Scaleborn",
+    "type": "Wyrm",
+    "level": 4
+  },
+  {
+    "id": "0358fd163f6b7f3e",
+    "name": "Cold Dragon, Sovereign",
+    "type": "Wyrm",
+    "level": 16
+  },
+  {
+    "id": "68ed3fc55e5cb314",
+    "name": "Cold Dragon, Talon",
+    "type": "Wyrm",
+    "level": 10
+  },
+  {
+    "id": "37e90550cb9400f9",
+    "name": "Constrictor",
+    "type": "Animal",
+    "level": 6
+  },
+  {
+    "id": "HjqYGcPL8g1tMuTC",
+    "name": "Crimson Muck",
+    "type": "Ooze",
+    "level": 12
+  },
+  {
+    "id": "c7c917f50aea5edb",
+    "name": "Crocodile",
+    "type": "Animal",
+    "level": 4
+  },
+  {
+    "id": "de2365465150cf0f",
+    "name": "Cursarion",
+    "type": "Eternal",
+    "level": 5
+  },
+  {
+    "id": "7797a94d5915a7f4",
+    "name": "Cyclops",
+    "type": "Humanoid",
+    "level": 5
+  },
+  {
+    "id": "8dbb59747b6b6717",
+    "name": "Dancing Broom",
+    "type": "Construct",
+    "level": 1
+  },
+  {
+    "id": "b35e4531bacd6145",
+    "name": "Dao",
+    "type": "Elemental",
+    "level": 7
+  },
+  {
+    "id": "293469ccde939792",
+    "name": "Djinn",
+    "type": "Elemental",
+    "level": 8
+  },
+  {
+    "id": "84e85ecb28908618",
+    "name": "Doctus",
+    "type": "Eternal",
+    "level": 2
+  },
+  {
+    "id": "69add1e236e3011b",
+    "name": "Dracoral",
+    "type": "Eternal",
+    "level": 20
+  },
+  {
+    "id": "95b3676ed369a0c4",
+    "name": "Draeglir Aelin",
+    "type": "Eternal",
+    "level": 6
+  },
+  {
+    "id": "4a61aff74631dfb9",
+    "name": "Draeglir Halya",
+    "type": "Eternal",
+    "level": 20
+  },
+  {
+    "id": "e831c81e94403f5c",
+    "name": "Draeglir Tyel",
+    "type": "Eternal",
+    "level": 9
+  },
+  {
+    "id": "61aacd2779016631",
+    "name": "Draeglir Vyair",
+    "type": "Eternal",
+    "level": 14
+  },
+  {
+    "id": "0fd48899835a5a12",
+    "name": "Dread Shadow",
+    "type": "Undead",
+    "level": 8
+  },
+  {
+    "id": "9e01ed09b8dc460d",
+    "name": "Dretch",
+    "type": "Eternal",
+    "level": 2
+  },
+  {
+    "id": "c943b35d240d1fbe",
+    "name": "Druhari",
+    "type": "Beast",
+    "level": 6
+  },
+  {
+    "id": "4079c18a889a81f0",
+    "name": "Druharr",
+    "type": "Beast",
+    "level": 3
+  },
+  {
+    "id": "908c9d4f65ac4e80",
+    "name": "Dryad",
+    "type": "Fey",
+    "level": 4
+  },
+  {
+    "id": "9a1961b73ad12530",
+    "name": "Dusky Muck",
+    "type": "Ooze",
+    "level": 4
+  },
+  {
+    "id": "e4ebf80446d17c8f",
+    "name": "Eagle",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "25529fc062f5c8ce",
+    "name": "Earth",
+    "type": "Elemental",
+    "level": 1
+  },
+  {
+    "id": "fc8fd093513ecdc0",
+    "name": "Earth Drake",
+    "type": "Wyrm",
+    "level": 8
+  },
+  {
+    "id": "a8d9b6d499baf7a1",
+    "name": "Earth Primal - Aerph",
+    "type": "Elemental",
+    "level": 15
+  },
+  {
+    "id": "5a890fe5f3def1fe",
+    "name": "Earth Primal - Maoton",
+    "type": "Elemental",
+    "level": 11
+  },
+  {
+    "id": "9a34cd4ef8aad49b",
+    "name": "Earth Primal - Pebbal",
+    "type": "Elemental",
+    "level": 3
+  },
+  {
+    "id": "3255da5bee1cb44b",
+    "name": "Earth Primal - Stown",
+    "type": "Elemental",
+    "level": 7
+  },
+  {
+    "id": "5723f10712b69e8c",
+    "name": "Eclipse",
+    "type": "Fey",
+    "level": 15
+  },
+  {
+    "id": "e511956aee8315d5",
+    "name": "Efreet",
+    "type": "Elemental",
+    "level": 9
+  },
+  {
+    "id": "4da180dd49e328cf",
+    "name": "Elephant",
+    "type": "Animal",
+    "level": 8
+  },
+  {
+    "id": "3bd7ddc460124414",
+    "name": "Ettin",
+    "type": "Humanoid",
+    "level": 6
+  },
+  {
+    "id": "e660d330e2a7a979",
+    "name": "Fancalia",
+    "type": "Eternal",
+    "level": 10
+  },
+  {
+    "id": "73cb7bf579b8db05",
+    "name": "Feloral",
+    "type": "Eternal",
+    "level": 2
+  },
+  {
+    "id": "6aa1048c45c42454",
+    "name": "Fire",
+    "type": "Elemental",
+    "level": 1
+  },
+  {
+    "id": "f21e84d5b006b8a1",
+    "name": "Fire Dragon, Scaleborn",
+    "type": "Wyrm",
+    "level": 6
+  },
+  {
+    "id": "1fbc2a491b7ed630",
+    "name": "Fire Dragon, Sovereign",
+    "type": "Wyrm",
+    "level": 18
+  },
+  {
+    "id": "4a26de7083e1f5c9",
+    "name": "Fire Dragon, Talon",
+    "type": "Wyrm",
+    "level": 12
+  },
+  {
+    "id": "Gd3xe9D7YtMlRtZ8",
+    "name": "Fire Giant",
+    "type": "Humanoid",
+    "level": 14
+  },
+  {
+    "id": "f3e282f672259990",
+    "name": "Fire Giant Shaman",
+    "type": "Humanoid",
+    "level": 14
+  },
+  {
+    "id": "eac0d601ccf91b61",
+    "name": "Fire Primal - Emba",
+    "type": "Elemental",
+    "level": 3
+  },
+  {
+    "id": "d410e595b3b70ba5",
+    "name": "Fire Primal - Flaim",
+    "type": "Elemental",
+    "level": 7
+  },
+  {
+    "id": "2d456be549671b1d",
+    "name": "Fire Primal - Intheno",
+    "type": "Elemental",
+    "level": 11
+  },
+  {
+    "id": "9720811fcba7c9a0",
+    "name": "Fire Primal - Pyroclas",
+    "type": "Elemental",
+    "level": 15
+  },
+  {
+    "id": "16189aaf341c24b5",
+    "name": "Flame Beetle",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "f525b4b19d1182b1",
+    "name": "Flame Drake",
+    "type": "Wyrm",
+    "level": 9
+  },
+  {
+    "id": "NiuV4p7OlCzOWpaX",
+    "name": "Flesh Golem",
+    "type": "Construct",
+    "level": 8
+  },
+  {
+    "id": "6cdc7180d1b81547",
+    "name": "Flying Rug",
+    "type": "Construct",
+    "level": 7
+  },
+  {
+    "id": "af16bf445c29ed06",
+    "name": "Forest Dragon, Scaleborn",
+    "type": "Wyrm",
+    "level": 5
+  },
+  {
+    "id": "94e21962c11861f6",
+    "name": "Forest Dragon, Sovereign",
+    "type": "Wyrm",
+    "level": 17
+  },
+  {
+    "id": "5633bf01e044fca1",
+    "name": "Forest Dragon, Talon",
+    "type": "Wyrm",
+    "level": 11
+  },
+  {
+    "id": "50051e3b5272d6ae",
+    "name": "Forest Troll",
+    "type": "Humanoid",
+    "level": 7
+  },
+  {
+    "id": "873f61a74e53607b",
+    "name": "Frost Drake",
+    "type": "Wyrm",
+    "level": 8
+  },
+  {
+    "id": "htgxaPcjjFnMUDK9",
+    "name": "Frost Giant",
+    "type": "Humanoid",
+    "level": 12
+  },
+  {
+    "id": "72b4a1ae358ae899",
+    "name": "Frost Giant Shaman",
+    "type": "Humanoid",
+    "level": 12
+  },
+  {
+    "id": "969a051cc3cfa831",
+    "name": "Frostsnarl",
+    "type": "Fey",
+    "level": 11
+  },
+  {
+    "id": "ce41f526d7d75cd7",
+    "name": "Gargoyle",
+    "type": "Elemental",
+    "level": 5
+  },
+  {
+    "id": "bfe5de33604845ca",
+    "name": "Ghast",
+    "type": "Undead",
+    "level": 4
+  },
+  {
+    "id": "95e378d4522ee5bf",
+    "name": "Ghoul",
+    "type": "Undead",
+    "level": 2
+  },
+  {
+    "id": "21646766fb03b2db",
+    "name": "Giant Bat",
+    "type": "Animal",
+    "level": 2
+  },
+  {
+    "id": "8356446bc983332e",
+    "name": "Giant Chameleon",
+    "type": "Animal",
+    "level": 3
+  },
+  {
+    "id": "3034371a85e9ea88",
+    "name": "Giant Eagle",
+    "type": "Animal",
+    "level": 8
+  },
+  {
+    "id": "d47a8252a802ac0a",
+    "name": "Giant Frilled Lizard",
+    "type": "Animal",
+    "level": 5
+  },
+  {
+    "id": "5aab09b26e9171cd",
+    "name": "Giant Gecko",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "cc9f0a6657db5729",
+    "name": "Giant Rat",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "0cdaa5a2ea9ef241",
+    "name": "Giant Spider",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "b6324d07aa49113a",
+    "name": "Giant Stag Beetle",
+    "type": "Animal",
+    "level": 4
+  },
+  {
+    "id": "XWMxIMgKiiGWVDF2",
+    "name": "Glimmerwick",
+    "type": "Fey",
+    "level": 2
+  },
+  {
+    "id": "ruAPPwFhttVjFLvi",
+    "name": "Goblin Elite",
+    "type": "Humanoid",
+    "level": 4
+  },
+  {
+    "id": "gfLrAf6ABYqfapmm",
+    "name": "Goblin Warrior",
+    "type": "Humanoid",
+    "level": 1
+  },
+  {
+    "id": "5ac37989e85d5205",
+    "name": "Golden Muck",
+    "type": "Ooze",
+    "level": 10
+  },
+  {
+    "id": "09ab01d41b9628d6",
+    "name": "Gondathel",
+    "type": "Eternal",
+    "level": 12
+  },
+  {
+    "id": "9fc4592e973d65d8",
+    "name": "Gorgon",
+    "type": "Beast",
+    "level": 10
+  },
+  {
+    "id": "2c685e8273b3f7e7",
+    "name": "Gravhek",
+    "type": "Eternal",
+    "level": 8
+  },
+  {
+    "id": "022c0b556ecc5999",
+    "name": "Grey Spider",
+    "type": "Beast",
+    "level": 7
+  },
+  {
+    "id": "ed747427dc8b5df2",
+    "name": "Grizzly Bear",
+    "type": "Animal",
+    "level": 3
+  },
+  {
+    "id": "91b7ce0d4104342d",
+    "name": "Gryphon",
+    "type": "Beast",
+    "level": 6
+  },
+  {
+    "id": "5c3edc82798c126b",
+    "name": "Guard Dog",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "7817cdfd6f6103e6",
+    "name": "Guardian",
+    "type": "Eternal",
+    "level": 10
+  },
+  {
+    "id": "b967ed6645567f97",
+    "name": "Guardian Dragon, Hatchling",
+    "type": "Wyrm",
+    "level": 8
+  },
+  {
+    "id": "da7c9a2f4f48b43f",
+    "name": "Guardian Dragon, Sovereign",
+    "type": "Wyrm",
+    "level": 20
+  },
+  {
+    "id": "bef6b6977adff744",
+    "name": "Guardian Dragon, Talon",
+    "type": "Wyrm",
+    "level": 14
+  },
+  {
+    "id": "46ef13f9c354e55f",
+    "name": "Hantya",
+    "type": "Eternal",
+    "level": 13
+  },
+  {
+    "id": "fyfq4VxA2I6FZvoQ",
+    "name": "Hill Giant",
+    "type": "Humanoid",
+    "level": 8
+  },
+  {
+    "id": "caf7d3acd95ef0e6",
+    "name": "Hill Giant Shaman",
+    "type": "Humanoid",
+    "level": 8
+  },
+  {
+    "id": "6fa2173bac4275c2",
+    "name": "Hill Troll",
+    "type": "Humanoid",
+    "level": 8
+  },
+  {
+    "id": "9b2f3484b93af261",
+    "name": "Huanling",
+    "type": "Fey",
+    "level": 8
+  },
+  {
+    "id": "72311afce27699cc",
+    "name": "Human Ghost",
+    "type": "Undead",
+    "level": 5
+  },
+  {
+    "id": "0e15e921be9973f7",
+    "name": "Ice",
+    "type": "Elemental",
+    "level": 1
+  },
+  {
+    "id": "34457e2053808262",
+    "name": "Inferno Spider",
+    "type": "Beast",
+    "level": 10
+  },
+  {
+    "id": "SpAAAh6R7nQbL3Cw",
+    "name": "Iron Golem",
+    "type": "Construct",
+    "level": 14
+  },
+  {
+    "id": "92989115da09d8fb",
+    "name": "Jann",
+    "type": "Elemental",
+    "level": 6
+  },
+  {
+    "id": "f80f7e1dcc23d322",
+    "name": "Khavar",
+    "type": "Eternal",
+    "level": 15
+  },
+  {
+    "id": "CQOGUzXoRsRpsN4T",
+    "name": "Kobold Elite",
+    "type": "Humanoid",
+    "level": 4
+  },
+  {
+    "id": "38027e25ae50e63f",
+    "name": "Kobold Sneak",
+    "type": "Humanoid",
+    "level": 1
+  },
+  {
+    "id": "a3f134219c4dd768",
+    "name": "Kothorn",
+    "type": "Animal",
+    "level": 5
+  },
+  {
+    "id": "4eca1fbf3b8f3b79",
+    "name": "Kraken",
+    "type": "Beast",
+    "level": 20
+  },
+  {
+    "id": "afcc6b2fb483025c",
+    "name": "Laeleth",
+    "type": "Animal",
+    "level": 14
+  },
+  {
+    "id": "ae4f074e788bd367",
+    "name": "Leopard",
+    "type": "Animal",
+    "level": 4
+  },
+  {
+    "id": "a07254682fd21d5a",
+    "name": "Light Dragon, Scaleborn",
+    "type": "Wyrm",
+    "level": 5
+  },
+  {
+    "id": "e058f3de94d0e236",
+    "name": "Light Dragon, Sovereign",
+    "type": "Wyrm",
+    "level": 17
+  },
+  {
+    "id": "7d37b7c89fcc305b",
+    "name": "Light Dragon, Talon",
+    "type": "Wyrm",
+    "level": 11
+  },
+  {
+    "id": "8efbf346ec03fbcd",
+    "name": "Lion",
+    "type": "Animal",
+    "level": 5
+  },
+  {
+    "id": "193feb0260c21b16",
+    "name": "Luporal",
+    "type": "Eternal",
+    "level": 6
+  },
+  {
+    "id": "nRAitU836QiIKwW7",
+    "name": "Lustrian Brave",
+    "type": "Humanoid",
+    "level": 2
+  },
+  {
+    "id": "QOP5p4sEqjlqLC9p",
+    "name": "Lustrian Khrissk",
+    "type": "Humanoid",
+    "level": 6
+  },
+  {
+    "id": "a7089411f77fde76",
+    "name": "Lynxara",
+    "type": "Beast",
+    "level": 1
+  },
+  {
+    "id": "a5524103192b90db",
+    "name": "Magnuslamnia",
+    "type": "Animal",
+    "level": 14
+  },
+  {
+    "id": "3902b49458da8a7d",
+    "name": "Mammoth",
+    "type": "Animal",
+    "level": 11
+  },
+  {
+    "id": "bh1zenaiVEBNZ7Fm",
+    "name": "Manticore",
+    "type": "Beast",
+    "level": 8
+  },
+  {
+    "id": "0cf024c402fcccf1",
+    "name": "Marid",
+    "type": "Elemental",
+    "level": 10
+  },
+  {
+    "id": "3dee56aa17bc60af",
+    "name": "Marilith",
+    "type": "Eternal",
+    "level": 17
+  },
+  {
+    "id": "31a99a48c9459a7a",
+    "name": "Marshlight",
+    "type": "Fey",
+    "level": 9
+  },
+  {
+    "id": "hd76MNQDlJL6kQ9P",
+    "name": "Medusa",
+    "type": "Beast",
+    "level": 7
+  },
+  {
+    "id": "FIfCD65aQnvOid4B",
+    "name": "Minotaur",
+    "type": "Humanoid",
+    "level": 6
+  },
+  {
+    "id": "40ae2fac9b62936b",
+    "name": "Mirneth",
+    "type": "Beast",
+    "level": 11
+  },
+  {
+    "id": "579fade1be477e73",
+    "name": "Mite Swarm",
+    "type": "Animal",
+    "level": 2
+  },
+  {
+    "id": "2186ff58139dc511",
+    "name": "Monstrous Spider",
+    "type": "Animal",
+    "level": 6
+  },
+  {
+    "id": "HVrZkU8HjPK0tOte",
+    "name": "Morndulir Soldier",
+    "type": "Humanoid",
+    "level": 6
+  },
+  {
+    "id": "aSZeoRCkWbaRJ0O2",
+    "name": "Morndulir Worker",
+    "type": "Humanoid",
+    "level": 2
+  },
+  {
+    "id": "dbcfe4a80819bed9",
+    "name": "Mortivor",
+    "type": "Eternal",
+    "level": 14
+  },
+  {
+    "id": "dae1cfda16e085f7",
+    "name": "Mountain Serpent",
+    "type": "Animal",
+    "level": 11
+  },
+  {
+    "id": "e9073ef42b0b79e1",
+    "name": "Mountain Troll",
+    "type": "Humanoid",
+    "level": 10
+  },
+  {
+    "id": "32936876f9d6f46a",
+    "name": "Mummy",
+    "type": "Undead",
+    "level": 7
+  },
+  {
+    "id": "806bc38281265490",
+    "name": "Nettlehide",
+    "type": "Plant",
+    "level": 9
+  },
+  {
+    "id": "c0d753a2d38928af",
+    "name": "Nightmare",
+    "type": "Eternal",
+    "level": 7
+  },
+  {
+    "id": "ea5aadf6a320d078",
+    "name": "Nightmare Lord",
+    "type": "Eternal",
+    "level": 12
+  },
+  {
+    "id": "591b7f0992f237a3",
+    "name": "Nightray",
+    "type": "Wyrm",
+    "level": 8
+  },
+  {
+    "id": "eb03f209ae40f31d",
+    "name": "Nimblespring",
+    "type": "Fey",
+    "level": 5
+  },
+  {
+    "id": "837b297cd092a305",
+    "name": "Nixie",
+    "type": "Fey",
+    "level": 1
+  },
+  {
+    "id": "010fef961709b9ef",
+    "name": "Nocturnus",
+    "type": "Eternal",
+    "level": 10
+  },
+  {
+    "id": "3c6dbd55cac1ab12",
+    "name": "Noxmortis",
+    "type": "Eternal",
+    "level": 18
+  },
+  {
+    "id": "e73e788d5f4c0f50",
+    "name": "Nubifor",
+    "type": "Eternal",
+    "level": 15
+  },
+  {
+    "id": "672bb15756a2d810",
+    "name": "Obsidral",
+    "type": "Elemental",
+    "level": 15
+  },
+  {
+    "id": "7152098897e0d440",
+    "name": "Oceanidh",
+    "type": "Humanoid",
+    "level": 2
+  },
+  {
+    "id": "6ec662d26343a57f",
+    "name": "Oceanidh Hunter",
+    "type": "Humanoid",
+    "level": 6
+  },
+  {
+    "id": "af1cd383f632c57a",
+    "name": "Ochre Jelly",
+    "type": "Ooze",
+    "level": 6
+  },
+  {
+    "id": "56783e9398af1b81",
+    "name": "Ogre",
+    "type": "Humanoid",
+    "level": 4
+  },
+  {
+    "id": "6e0d92b3a30fefad",
+    "name": "Ogre Soldier",
+    "type": "Humanoid",
+    "level": 8
+  },
+  {
+    "id": "2cd9a956253ad2d0",
+    "name": "Oryceps",
+    "type": "Plant",
+    "level": 4
+  },
+  {
+    "id": "a42759bede0d2b13",
+    "name": "Pegasus",
+    "type": "Beast",
+    "level": 4
+  },
+  {
+    "id": "2442042f22f907b8",
+    "name": "Phasmus",
+    "type": "Aberration",
+    "level": 14
+  },
+  {
+    "id": "4bb667edc30a5636",
+    "name": "Phoenix",
+    "type": "Elemental",
+    "level": 15
+  },
+  {
+    "id": "ade0a36c8031b7b5",
+    "name": "Pixie",
+    "type": "Fey",
+    "level": 5
+  },
+  {
+    "id": "6566aee8fe331548",
+    "name": "Polar Bear",
+    "type": "Animal",
+    "level": 5
+  },
+  {
+    "id": "b8d94fdf2429a4ff",
+    "name": "Pyraquenil",
+    "type": "Eternal",
+    "level": 4
+  },
+  {
+    "id": "643353cdb13bd54f",
+    "name": "Pyroral",
+    "type": "Eternal",
+    "level": 13
+  },
+  {
+    "id": "3b2fe6d148399dc7",
+    "name": "Quasit",
+    "type": "Eternal",
+    "level": 1
+  },
+  {
+    "id": "11568a19d4fe3ba7",
+    "name": "Queldor",
+    "type": "Eternal",
+    "level": 8
+  },
+  {
+    "id": "08381873610e5156",
+    "name": "Rat Swarm",
+    "type": "Animal",
+    "level": 2
+  },
+  {
+    "id": "7109ef4122583481",
+    "name": "Raven",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "e58a4b5eae83865b",
+    "name": "Raven Swarm",
+    "type": "Animal",
+    "level": 3
+  },
+  {
+    "id": "5e9a836430bab267",
+    "name": "Reaver",
+    "type": "Eternal",
+    "level": 20
+  },
+  {
+    "id": "a251cea56322ef06",
+    "name": "Riding Dog",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "RW4oreSpDlsdzPhH",
+    "name": "Riding Horse",
+    "type": "Animal",
+    "level": 2
+  },
+  {
+    "id": "b530e9129fd02a4d",
+    "name": "River Troll",
+    "type": "Humanoid",
+    "level": 9
+  },
+  {
+    "id": "840090a90e3a068e",
+    "name": "Roc",
+    "type": "Animal",
+    "level": 15
+  },
+  {
+    "id": "a0b369e3cfbfad79",
+    "name": "Rumellor",
+    "type": "Eternal",
+    "level": 16
+  },
+  {
+    "id": "cbae00b7ae228dd8",
+    "name": "Salamander",
+    "type": "Elemental",
+    "level": 7
+  },
+  {
+    "id": "b9b0119bafe30ea9",
+    "name": "Salamaxis",
+    "type": "Elemental",
+    "level": 10
+  },
+  {
+    "id": "63a54551a76de5ce",
+    "name": "Sand Serpent",
+    "type": "Animal",
+    "level": 3
+  },
+  {
+    "id": "5edc324cac8c773a",
+    "name": "Sea Dragon, Scaleborn",
+    "type": "Wyrm",
+    "level": 4
+  },
+  {
+    "id": "926c9b2a88950663",
+    "name": "Sea Dragon, Sovereign",
+    "type": "Wyrm",
+    "level": 16
+  },
+  {
+    "id": "ef50da0280b7480c",
+    "name": "Sea Dragon, Talon",
+    "type": "Wyrm",
+    "level": 10
+  },
+  {
+    "id": "e5a86e030c30811b",
+    "name": "Sequoia Allium",
+    "type": "Plant",
+    "level": 12
+  },
+  {
+    "id": "ad7f13bd276358c9",
+    "name": "Seraphim",
+    "type": "Eternal",
+    "level": 16
+  },
+  {
+    "id": "9a96e04608b57063",
+    "name": "Shade Dragon, Mature",
+    "type": "Wyrm",
+    "level": 19
+  },
+  {
+    "id": "7a83a0b53a28db99",
+    "name": "Shade Dragon, Scaleborn",
+    "type": "Wyrm",
+    "level": 7
+  },
+  {
+    "id": "df98b9245dbee178",
+    "name": "Shade Dragon, Talon",
+    "type": "Wyrm",
+    "level": 13
+  },
+  {
+    "id": "0ac1b5c59cc13803",
+    "name": "Shade Stalker",
+    "type": "Undead",
+    "level": 16
+  },
+  {
+    "id": "c2c3dcbe050c5840",
+    "name": "Shade Walker",
+    "type": "Undead",
+    "level": 14
+  },
+  {
+    "id": "b3a34dfecfa159c3",
+    "name": "Shade Wing",
+    "type": "Undead",
+    "level": 12
+  },
+  {
+    "id": "2554f3cf470e92c9",
+    "name": "Shade Wraith",
+    "type": "Undead",
+    "level": 20
+  },
+  {
+    "id": "a9a143c81b5346c4",
+    "name": "Shadow",
+    "type": "Undead",
+    "level": 4
+  },
+  {
+    "id": "466d3f64806e55b7",
+    "name": "Shadowthorn",
+    "type": "Fey",
+    "level": 7
+  },
+  {
+    "id": "b00209728e86f8ce",
+    "name": "Shambler",
+    "type": "Plant",
+    "level": 6
+  },
+  {
+    "id": "435f1e32be0b9585",
+    "name": "Shark",
+    "type": "Animal",
+    "level": 4
+  },
+  {
+    "id": "490e9c9dac789213",
+    "name": "Skeleton Champion",
+    "type": "Undead",
+    "level": 4
+  },
+  {
+    "id": "6a0757595a7b08df",
+    "name": "Skeleton Warrior",
+    "type": "Undead",
+    "level": 1
+  },
+  {
+    "id": "22a4aee3b34d3611",
+    "name": "Smilodon",
+    "type": "Animal",
+    "level": 8
+  },
+  {
+    "id": "a6a4a5e25f0d6a3c",
+    "name": "Snow Troll",
+    "type": "Humanoid",
+    "level": 13
+  },
+  {
+    "id": "257b8d5957a737bb",
+    "name": "Somnichan",
+    "type": "Eternal",
+    "level": 20
+  },
+  {
+    "id": "d794691447abbe59",
+    "name": "Soul Shade",
+    "type": "Undead",
+    "level": 22
+  },
+  {
+    "id": "16562ddc5d3857c7",
+    "name": "Spectre",
+    "type": "Undead",
+    "level": 7
+  },
+  {
+    "id": "f464aefcd5c96976",
+    "name": "Sphinx",
+    "type": "Beast",
+    "level": 10
+  },
+  {
+    "id": "b55dc0e87eb5d809",
+    "name": "Spider Swarm",
+    "type": "Animal",
+    "level": 2
+  },
+  {
+    "id": "BEq1dqduRVY7vqKq",
+    "name": "Stone Giant",
+    "type": "Humanoid",
+    "level": 10
+  },
+  {
+    "id": "f15224a9ddf21cfa",
+    "name": "Stone Giant Shaman",
+    "type": "Humanoid",
+    "level": 10
+  },
+  {
+    "id": "9vpObR0LFnrZNYgL",
+    "name": "Stone Golem",
+    "type": "Construct",
+    "level": 12
+  },
+  {
+    "id": "421750129730775a",
+    "name": "Storm Crow",
+    "type": "Beast",
+    "level": 12
+  },
+  {
+    "id": "c7597b107a80ed6a",
+    "name": "Storm Drake",
+    "type": "Wyrm",
+    "level": 9
+  },
+  {
+    "id": "JCY94W5D8NGilydI",
+    "name": "Storm Giant",
+    "type": "Humanoid",
+    "level": 18
+  },
+  {
+    "id": "a7e0af03ff2ceae4",
+    "name": "Storm Giant Shaman",
+    "type": "Humanoid",
+    "level": 18
+  },
+  {
+    "id": "8cd476fabf0dfac4",
+    "name": "Succubus",
+    "type": "Eternal",
+    "level": 8
+  },
+  {
+    "id": "7cc513ea771d41de",
+    "name": "Tenebrax",
+    "type": "Eternal",
+    "level": 6
+  },
+  {
+    "id": "8NuOqKgu1hkRZS1H",
+    "name": "Terradon",
+    "type": "Animal",
+    "level": 14
+  },
+  {
+    "id": "4a411d6c5ffb22fb",
+    "name": "Thel",
+    "type": "Eternal",
+    "level": 10
+  },
+  {
+    "id": "0a0770729de20d65",
+    "name": "Thornkin",
+    "type": "Plant",
+    "level": 6
+  },
+  {
+    "id": "7a874b20bc103be1",
+    "name": "Tiger",
+    "type": "Animal",
+    "level": 6
+  },
+  {
+    "id": "99b2397ea3f07ad3",
+    "name": "Titan",
+    "type": "Humanoid",
+    "level": 20
+  },
+  {
+    "id": "e8b4ef489eeff700",
+    "name": "Titan Hound",
+    "type": "Animal",
+    "level": 5
+  },
+  {
+    "id": "86db3de2d063c09d",
+    "name": "Titasuchus",
+    "type": "Animal",
+    "level": 10
+  },
+  {
+    "id": "c383b09d1b69c382",
+    "name": "Triclops",
+    "type": "Humanoid",
+    "level": 14
+  },
+  {
+    "id": "pTQlJ3jmjWph52QM",
+    "name": "Unicorn",
+    "type": "Beast",
+    "level": 10
+  },
+  {
+    "id": "e1052fa6cfbef3c1",
+    "name": "Vampire",
+    "type": "Undead",
+    "level": 10
+  },
+  {
+    "id": "67d9f2040f22c425",
+    "name": "Verdant Muck",
+    "type": "Ooze",
+    "level": 6
+  },
+  {
+    "id": "6153e722d280b707",
+    "name": "Violith",
+    "type": "Eternal",
+    "level": 3
+  },
+  {
+    "id": "6fedc3f45d762fa4",
+    "name": "Viper",
+    "type": "Animal",
+    "level": 1
+  },
+  {
+    "id": "5e50f48e5c82aba6",
+    "name": "Virtue",
+    "type": "Eternal",
+    "level": 6
+  },
+  {
+    "id": "3fb221a95181b5b7",
+    "name": "Waarg",
+    "type": "Beast",
+    "level": 5
+  },
+  {
+    "id": "KVYM2mIA1tGJMpWz",
+    "name": "War Horse",
+    "type": "Animal",
+    "level": 3
+  },
+  {
+    "id": "62fb4ffed26ff1e8",
+    "name": "Water",
+    "type": "Elemental",
+    "level": 1
+  },
+  {
+    "id": "ae708a4c706d9d1d",
+    "name": "Water Primal - Dropp",
+    "type": "Elemental",
+    "level": 3
+  },
+  {
+    "id": "ebc806f981f3e8cb",
+    "name": "Water Primal - Synarmi",
+    "type": "Elemental",
+    "level": 15
+  },
+  {
+    "id": "b10713fd028c1efc",
+    "name": "Water Primal - Tydal",
+    "type": "Elemental",
+    "level": 11
+  },
+  {
+    "id": "d88f34d8a4166fad",
+    "name": "Water Primal - Waive",
+    "type": "Elemental",
+    "level": 7
+  },
+  {
+    "id": "48fd14bc2f6cbf31",
+    "name": "Wight",
+    "type": "Undead",
+    "level": 6
+  },
+  {
+    "id": "1062bd45f44e5cd1",
+    "name": "Wolf",
+    "type": "Animal",
+    "level": 2
+  },
+  {
+    "id": "09f1cc37b5cc546a",
+    "name": "Wood Golem",
+    "type": "Construct",
+    "level": 6
+  },
+  {
+    "id": "520eae49ed7d6bd7",
+    "name": "Wraith",
+    "type": "Undead",
+    "level": 10
+  },
+  {
+    "id": "52871ffd618eefac",
+    "name": "Wrathmorta",
+    "type": "Eternal",
+    "level": 12
+  },
+  {
+    "id": "4d13902872a1187d",
+    "name": "Wulve",
+    "type": "Animal",
+    "level": 4
+  },
+  {
+    "id": "151522f0085e545c",
+    "name": "Wysp",
+    "type": "Fey",
+    "level": 7
+  },
+  {
+    "id": "dc779071e8d7f2dc",
+    "name": "Wyvern",
+    "type": "Wyrm",
+    "level": 7
+  },
+  {
+    "id": "ne3rChZXQ0CtuxEv",
+    "name": "Xort",
+    "type": "Plant",
+    "level": 8
+  },
+  {
+    "id": "0a141a889ca02709",
+    "name": "Yulussil",
+    "type": "Eternal",
+    "level": 20
+  },
+  {
+    "id": "a510ba019bf3109a",
+    "name": "Zombie, Human",
+    "type": "Undead",
+    "level": 1
+  },
+  {
+    "id": "6099b47409cc34b3",
+    "name": "Zylar",
+    "type": "Humanoid",
+    "level": 8
+  },
+  {
+    "id": "eb8cf0c6f9525c16",
+    "name": "Vrock",
+    "type": "Eternal",
+    "level": 12
+  },
+  {
+    "id": "3b2817bb563e7a0a",
+    "name": "Werebat",
+    "type": "Humanoid",
+    "level": 3
+  },
+  {
+    "id": "0f7f12f4b1b54f4e",
+    "name": "Werebear",
+    "type": "Humanoid",
+    "level": 6
+  },
+  {
+    "id": "943539ba8b073eef",
+    "name": "Wereboar",
+    "type": "Humanoid",
+    "level": 4
+  },
+  {
+    "id": "c94ce024ff30a74f",
+    "name": "Werecat",
+    "type": "Humanoid",
+    "level": 8
+  },
+  {
+    "id": "474f109d532c93c2",
+    "name": "Wererat",
+    "type": "Humanoid",
+    "level": 2
+  },
+  {
+    "id": "c1abb401b158123f",
+    "name": "Wereraven",
+    "type": "Humanoid",
+    "level": 7
+  },
+  {
+    "id": "69960ed5f5d777c6",
+    "name": "Werewolf",
+    "type": "Humanoid",
+    "level": 4
+  },
+  {
+    "id": "66561f088d7f9da0",
+    "name": "Mournkin",
+    "type": "Humanoid",
+    "level": 6
+  }
+]

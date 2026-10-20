@@ -1,0 +1,2785 @@
+{
+  "release": "0.10.5",
+  "target": {
+    "foundry": "14.365",
+    "trgPrime": "3.320.0"
+  },
+  "actorCount": 275,
+  "previousActorCount": 270,
+  "newActors": [
+    "Crocodile",
+    "Titasuchus",
+    "Cyclops",
+    "Zylar",
+    "Triclops"
+  ],
+  "checksPassed": 553,
+  "checksTotal": 553,
+  "checks": [
+    {
+      "check": "actor count 275",
+      "passed": true,
+      "detail": "275"
+    },
+    {
+      "check": "preserve !actors!0358fd163f6b7f3e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!09ab01d41b9628d6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!09f1cc37b5cc546a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!0a141a889ca02709",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!0cf024c402fcccf1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!1fbc2a491b7ed630",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!20737dcdf562e645",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!262e75b0360f1030",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!293469ccde939792",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!2a3eb9f71c543a68",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!3034371a85e9ea88",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!31a99a48c9459a7a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!38027e25ae50e63f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!3902b49458da8a7d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!3bd7ddc460124414",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!4079c18a889a81f0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!466d3f64806e55b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!4a26de7083e1f5c9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!4a61aff74631dfb9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!4da180dd49e328cf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!4eca1fbf3b8f3b79",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5633bf01e044fca1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5723f10712b69e8c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5aab09b26e9171cd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5c3edc82798c126b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5edc324cac8c773a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!61aacd2779016631",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!672bb15756a2d810",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!68ed3fc55e5cb314",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!72311afce27699cc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!724bb8092cc9e61d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7a83a0b53a28db99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7d37b7c89fcc305b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!8356446bc983332e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!873f61a74e53607b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!908c9d4f65ac4e80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!91b7ce0d4104342d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!926c9b2a88950663",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!92989115da09d8fb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!94e21962c11861f6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!95b3676ed369a0c4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!95e378d4522ee5bf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!969a051cc3cfa831",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!9a96e04608b57063",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!9b2f3484b93af261",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!9fc4592e973d65d8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!9vpObR0LFnrZNYgL",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!BuDDm9zFdECvOhww",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!G0oRjdY3CWlzUiGG",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!Gd3xe9D7YtMlRtZ8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!NiuV4p7OlCzOWpaX",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!SpAAAh6R7nQbL3Cw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!WxOz7yhgPRfRVkD4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a07254682fd21d5a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a0b369e3cfbfad79",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a251cea56322ef06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a8f411a0ab174b99",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!af16bf445c29ed06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!af6493fddd435857",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b35e4531bacd6145",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b4c4cafcefcd05f8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b8d94fdf2429a4ff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b967ed6645567f97",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!bef6b6977adff744",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!bfe5de33604845ca",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!c7597b107a80ed6a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!c943b35d240d1fbe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ce41f526d7d75cd7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!d47a8252a802ac0a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!da7c9a2f4f48b43f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!dc779071e8d7f2dc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!df98b9245dbee178",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e058f3de94d0e236",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e4ebf80446d17c8f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e511956aee8315d5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e831c81e94403f5c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e8b4ef489eeff700",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ef50da0280b7480c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!f21e84d5b006b8a1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!f525b4b19d1182b1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!fc8fd093513ecdc0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!gfLrAf6ABYqfapmm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ne3rChZXQ0CtuxEv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!pTQlJ3jmjWph52QM",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ruAPPwFhttVjFLvi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ZjlTycNHU22f6P05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!htgxaPcjjFnMUDK9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!fyfq4VxA2I6FZvoQ",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!BEq1dqduRVY7vqKq",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!JCY94W5D8NGilydI",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!XWMxIMgKiiGWVDF2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!CQOGUzXoRsRpsN4T",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!8NuOqKgu1hkRZS1H",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!nRAitU836QiIKwW7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!QOP5p4sEqjlqLC9p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!bh1zenaiVEBNZ7Fm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!hd76MNQDlJL6kQ9P",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!FIfCD65aQnvOid4B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!aSZeoRCkWbaRJ0O2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!HVrZkU8HjPK0tOte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5dv1ASrazYXTbZcP",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!RW4oreSpDlsdzPhH",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!KVYM2mIA1tGJMpWz",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ZYStrkZgLUAygVgO",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!HjqYGcPL8g1tMuTC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!9a1961b73ad12530",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5ac37989e85d5205",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!67d9f2040f22c425",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!32936876f9d6f46a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!de2365465150cf0f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!84e85ecb28908618",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e660d330e2a7a979",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e73e788d5f4c0f50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!257b8d5957a737bb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!806bc38281265490",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!c0d753a2d38928af",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ea5aadf6a320d078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!591b7f0992f237a3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!eb03f209ae40f31d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!837b297cd092a305",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7152098897e0d440",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6ec662d26343a57f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!af1cd383f632c57a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!56783e9398af1b81",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6e0d92b3a30fefad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!2cd9a956253ad2d0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a42759bede0d2b13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!2442042f22f907b8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!4bb667edc30a5636",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ade0a36c8031b7b5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!1d63440071017220",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!d2c8e2216393c453",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!60286b40984aeeb0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!613dc01a505733dd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!9a34cd4ef8aad49b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!3255da5bee1cb44b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5a890fe5f3def1fe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a8d9b6d499baf7a1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!eac0d601ccf91b61",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!d410e595b3b70ba5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!2d456be549671b1d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!9720811fcba7c9a0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ae708a4c706d9d1d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!d88f34d8a4166fad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b10713fd028c1efc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ebc806f981f3e8cb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!08381873610e5156",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!cc9f0a6657db5729",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e58a4b5eae83865b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7109ef4122583481",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!840090a90e3a068e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!cbae00b7ae228dd8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b9b0119bafe30ea9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e5a86e030c30811b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!0ac1b5c59cc13803",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!c2c3dcbe050c5840",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b3a34dfecfa159c3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!2554f3cf470e92c9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!d794691447abbe59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a9a143c81b5346c4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!0fd48899835a5a12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b00209728e86f8ce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!579fade1be477e73",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!435f1e32be0b9585",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a5524103192b90db",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6a0757595a7b08df",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!490e9c9dac789213",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6fedc3f45d762fa4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!63a54551a76de5ce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!37e90550cb9400f9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!dae1cfda16e085f7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!dbcfe4a80819bed9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!010fef961709b9ef",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!3c6dbd55cac1ab12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!11568a19d4fe3ba7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5e9a836430bab267",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7cc513ea771d41de",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6153e722d280b707",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!52871ffd618eefac",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!16562ddc5d3857c7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!f464aefcd5c96976",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b55dc0e87eb5d809",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!0cdaa5a2ea9ef241",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!2186ff58139dc511",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!022c0b556ecc5999",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!34457e2053808262",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!421750129730775a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!0a0770729de20d65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!99b2397ea3f07ad3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!45e7fd92f21787f8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!50051e3b5272d6ae",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6fa2173bac4275c2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e9073ef42b0b79e1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b530e9129fd02a4d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a6a4a5e25f0d6a3c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e1052fa6cfbef3c1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!48fd14bc2f6cbf31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!1062bd45f44e5cd1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!4d13902872a1187d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!3fb221a95181b5b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!520eae49ed7d6bd7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!151522f0085e545c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a510ba019bf3109a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!015fc828becd96d4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!74dddbc86b2a6b8a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!841ae4b249856745",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!f3e282f672259990",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!72b4a1ae358ae899",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!caf7d3acd95ef0e6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!f15224a9ddf21cfa",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a7e0af03ff2ceae4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7560913548299d64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!25529fc062f5c8ce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6aa1048c45c42454",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!0e15e921be9973f7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!62fb4ffed26ff1e8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!e957f2178b17b566",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!69add1e236e3011b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!73cb7bf579b8db05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!193feb0260c21b16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!643353cdb13bd54f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!1ecf0dc12c4524a5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!776fb740c2f6087f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7817cdfd6f6103e6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ad7f13bd276358c9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5e50f48e5c82aba6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b8f1bde19bcc4e32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!69c14619daf61fd4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!deff99b0424258c6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!3b06631f30a8f65c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!8dbb59747b6b6717",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6cdc7180d1b81547",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!cce461f25fb06119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!58c573513d0651fc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!05a60e19dc397da2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!f789646461532e5d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!afcc6b2fb483025c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6f45988f1149d169",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!245b94aa1e7f6d90",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!f88ad32105802ca5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!390676f9aad361d1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!2c685e8273b3f7e7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!fc4f6b4712ecd99b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7f706d642bd8f707",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!21646766fb03b2db",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!0330b366cb89e849",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ed747427dc8b5df2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!6566aee8fe331548",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!16189aaf341c24b5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!b6324d07aa49113a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!40ae2fac9b62936b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!04aab8b4e518f9b5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!d4b13bdcb8535002",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!95c9b8d84c1dc1c3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!9a58da1d40781e3a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!f220e4f045337699",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ce9055b891b6ff4a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a3f134219c4dd768",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!4c224a7f1ef03cbe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!5bded37425b6c132",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!8ec1f5e3ad7aecef",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!ae4f074e788bd367",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!8efbf346ec03fbcd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!22a4aee3b34d3611",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!7a874b20bc103be1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!a7089411f77fde76",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!efca668e653d9f70",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!12fd2111af29d8f3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!56a27920cd810270",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "preserve !actors!98f64cca3dba9c92",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "type index count 275",
+      "passed": true,
+      "detail": "275"
+    },
+    {
+      "check": "manifest version 0.10.5",
+      "passed": true,
+      "detail": "0.10.5"
+    },
+    {
+      "check": "Crocodile plain biography",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile artwork",
+      "passed": true,
+      "detail": "assets/creatures/Crocodile.png"
+    },
+    {
+      "check": "Crocodile token artwork",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Crocodile.png"
+    },
+    {
+      "check": "Crocodile one race",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile one class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 8e5c2d6c63e1a351",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile effect ref 7badc259c1d6242b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile effect ref 429f2de104cf2b21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile effect ref 8dc2d2bc88618e73",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 55190ff6b9ebda65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 783b072c568284ee",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile effect ref e1cb5c2ec00e9b4e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 742bccdcb48e3773",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile effect ref d15cfba3c0dd2607",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref adaa95ca798f1809",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 23a227d6884a9212",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 1fa1e1a6541e2845",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile effect ref 8b7a7b23e5225cda",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 5844888f613444bf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile effect ref 5311d8e862595424",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 31cdfafc5e4da4a3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Crocodile item ref 82241616f8e3054c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus plain biography",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus artwork",
+      "passed": true,
+      "detail": "assets/creatures/Crocodile Dire.png"
+    },
+    {
+      "check": "Titasuchus token artwork",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Crocodile Dire.png"
+    },
+    {
+      "check": "Titasuchus one race",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus one class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref b06ab805021c5d83",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref c490d9e6f1dd9a53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref a209b71cf1859367",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref f75cc684c3d850b4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref bc673558b1d04a25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref 7b9712b1cc194b4a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref 1558077491b7a0ba",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref 6f7a1cdb919dbd9f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref f1f8279d4ccfdb87",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref 482ec5feb445c4af",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref 1e3f97731fa6fd45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref 529abddb504561de",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref 2274c158c0316748",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref 3e92801929b82f33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref adb73c7cabf27738",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref f0f8d3b396dde36b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref c43ae5d5160de0ea",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref 31e16d2daf8a64c7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref f0c5587f287d03f7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus effect ref 7ad135808f2c9569",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref 70b25898fc178159",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Titasuchus item ref 460c366279ba97f7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops plain biography",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops artwork",
+      "passed": true,
+      "detail": "assets/creatures/Cyclops.png"
+    },
+    {
+      "check": "Cyclops token artwork",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Cyclops.png"
+    },
+    {
+      "check": "Cyclops one race",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops one class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 12e222c4cba6ed64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref e0e0c1c87c54ec1a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 08ccf92a73209cd1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 3ed10cc266efa9f7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref ec7f768dac1752b8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 9289bc3f9721573c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref d2d53f5bc4ad7d24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 0f0bbec3a0b80f9c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref aa6a68fa13fb3727",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref f635663caa5c2afc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref f42099d2b58ad157",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 82c5857ff8ee2a63",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 2938cfe85613fdde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref 43a993afb9562f71",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref d78c911cfc979074",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref 40e5bc829342464b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref edfba76f1b95860e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 7d0ad94feb174bc0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref d2c2ddc673ae8a24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref 37e00cae2ee142ac",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref b36807ddf3d0f4f7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref 54e3962b7a916b47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 4f217565d2dba194",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref c50c857f4ed28c1b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops effect ref 35b1a110f1c6f7ad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref f053a38ae7c8df15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref ce0b5ceca7de02bd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 991d7605bdf91f07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref ab641b5a06930cde",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref dec15a2e7e6343bd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref b9bb99d3117ae66b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 5b1671402bac180e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops item ref 8f1768c7fd8aa184",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar plain biography",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar artwork",
+      "passed": true,
+      "detail": "assets/creatures/Zylar.png"
+    },
+    {
+      "check": "Zylar token artwork",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Zylar.png"
+    },
+    {
+      "check": "Zylar one race",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar one class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 637582d8696da9a7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref da3a3de66653b2d3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 4d02842becf2126c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 7db17ab15f9b20ce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref b146e3e3bed111b3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 9859bf6bb8003178",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref 2c8ff0dfdcaea0f8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref e91fe14d4b7d4c5c",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref 47d7413404fd914e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref f5240ae9d7beb802",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref 63d836bf1abdc949",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 6e99830600e9fe59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 8988244fd5eb5121",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref a804ff77a89a84eb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref cdccaebf6d8cf19d",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref f6be599999d36ae2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 5cd11d8aa73b9ea5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref 57aee2f715cc802e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 4b93abd89fc029f4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref cb46edfabf9dcf21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 70f0e61657461416",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref d78148fedacd57bd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 1a6b0a468ee8b549",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref 6c266ab320a8343e",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 91a5e1ea6d2794d2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref 1a858e130d4591a9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 0513ecb4ea707155",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar effect ref da4db307858b63de",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 07436188dd8c4237",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 4b64f1e7d75c7781",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 599a88bde34730ac",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref db94159780861797",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar item ref 1d8771df31e0fcdb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops plain biography",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops artwork",
+      "passed": true,
+      "detail": "assets/creatures/Triclops.png"
+    },
+    {
+      "check": "Triclops token artwork",
+      "passed": true,
+      "detail": "modules/fiends-and-fables-prime/assets/creatures/Triclops.png"
+    },
+    {
+      "check": "Triclops one race",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops one class",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 198701afd19e7a52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 0d1de130b0080f81",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 09ae8156f5eb2d2f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref a23c847cb9005677",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref a652eb201c95defe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 6daae55f90bf6584",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref fd675f40f368b978",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref ba4c7ce8bf407bcc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 4d4e9e1ab37e4b75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref a5b58274524b5671",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 979932743b787ecb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 2bcf955e708e8697",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref ff5f82292ab292c3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 516de28b63d58872",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 67794f5f60a38765",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref b2428a6ac0bcb9bd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 7b45236dc2cb954b",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 616b86d552b98f47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref b7581a86894e6d0a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 4d76858bd9ce548f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref a26423f76e9efe95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 8955db6934799fe9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref d87c772ccef556f3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 4a05e1f13a074fc8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref a44793963b5242b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 9f97123c49573e91",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref b5dc9aa52e598458",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref a3715084ca9a4bb7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 2e1d8a8630ead1bb",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref ab3443ecf79b8c28",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 44199867be7c3536",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 583032d2a040b331",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops effect ref 542005d16b648ca7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref aa277928bb9bf7bc",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 1c3af31f81a40bec",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref da73ce00bece3b44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 46ce6fa36f2074ba",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref 8016172a625cd530",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops item ref c2d84ca32c6df9c9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "race Crocodile unique",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "race Cyclopian unique",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "heritage Titasuchus unique",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "heritage Cyclops unique",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "heritage Zylar unique",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "heritage Triclops unique",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "check": "Crocodile abilities derive",
+      "passed": true,
+      "detail": "({'strength': 4, 'constitution': 3, 'dexterity': 1, 'intelligence': -4, 'wisdom': 1, 'charisma': -2}, {'strength': 4, 'constitution': 3, 'dexterity': 1, 'intelligence': -4, 'wisdom': 1, 'charisma': -2})"
+    },
+    {
+      "check": "Crocodile HP derives",
+      "passed": true,
+      "detail": "(127, 127)"
+    },
+    {
+      "check": "Crocodile DB derives",
+      "passed": true,
+      "detail": "(17, 17)"
+    },
+    {
+      "check": "Crocodile saves derive",
+      "passed": true,
+      "detail": "({'fortitude': 15, 'reflex': 12, 'will': 4}, {'fortitude': 15, 'reflex': 12, 'will': 4})"
+    },
+    {
+      "check": "Crocodile initiative derives",
+      "passed": true,
+      "detail": "(10, 10)"
+    },
+    {
+      "check": "Crocodile DR derives",
+      "passed": true,
+      "detail": "(3, 3)"
+    },
+    {
+      "check": "Crocodile skill acrobatics",
+      "passed": true,
+      "detail": "(5, 5)"
+    },
+    {
+      "check": "Crocodile skill athletics",
+      "passed": true,
+      "detail": "(9, 9)"
+    },
+    {
+      "check": "Crocodile skill climbing",
+      "passed": true,
+      "detail": "(5, 5)"
+    },
+    {
+      "check": "Crocodile skill perception",
+      "passed": true,
+      "detail": "(5, 5)"
+    },
+    {
+      "check": "Crocodile skill stealth",
+      "passed": true,
+      "detail": "(5, 5)"
+    },
+    {
+      "check": "Crocodile skill survival",
+      "passed": true,
+      "detail": "(5, 5)"
+    },
+    {
+      "check": "Crocodile attack Bite",
+      "passed": true,
+      "detail": "(9, 9)"
+    },
+    {
+      "check": "Crocodile attack Tail",
+      "passed": true,
+      "detail": "(9, 9)"
+    },
+    {
+      "check": "Titasuchus abilities derive",
+      "passed": true,
+      "detail": "({'strength': 7, 'constitution': 5, 'dexterity': 3, 'intelligence': -4, 'wisdom': 2, 'charisma': -1}, {'strength': 7, 'constitution': 5, 'dexterity': 3, 'intelligence': -4, 'wisdom': 2, 'charisma': -1})"
+    },
+    {
+      "check": "Titasuchus HP derives",
+      "passed": true,
+      "detail": "(255, 255)"
+    },
+    {
+      "check": "Titasuchus DB derives",
+      "passed": true,
+      "detail": "(30, 30)"
+    },
+    {
+      "check": "Titasuchus saves derive",
+      "passed": true,
+      "detail": "({'fortitude': 23, 'reflex': 20, 'will': 13}, {'fortitude': 23, 'reflex': 20, 'will': 13})"
+    },
+    {
+      "check": "Titasuchus initiative derives",
+      "passed": true,
+      "detail": "(25, 25)"
+    },
+    {
+      "check": "Titasuchus DR derives",
+      "passed": true,
+      "detail": "(8, 8)"
+    },
+    {
+      "check": "Titasuchus skill acrobatics",
+      "passed": true,
+      "detail": "(14, 14)"
+    },
+    {
+      "check": "Titasuchus skill athletics",
+      "passed": true,
+      "detail": "(19, 19)"
+    },
+    {
+      "check": "Titasuchus skill climbing",
+      "passed": true,
+      "detail": "(14, 14)"
+    },
+    {
+      "check": "Titasuchus skill perception",
+      "passed": true,
+      "detail": "(13, 13)"
+    },
+    {
+      "check": "Titasuchus skill stealth",
+      "passed": true,
+      "detail": "(13, 13)"
+    },
+    {
+      "check": "Titasuchus skill survival",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Titasuchus attack Bite",
+      "passed": true,
+      "detail": "(19, 19)"
+    },
+    {
+      "check": "Titasuchus attack Tail",
+      "passed": true,
+      "detail": "(19, 19)"
+    },
+    {
+      "check": "Cyclops abilities derive",
+      "passed": true,
+      "detail": "({'strength': 5, 'constitution': 3, 'dexterity': 0, 'intelligence': 1, 'wisdom': 1, 'charisma': 0}, {'strength': 5, 'constitution': 3, 'dexterity': 0, 'intelligence': 1, 'wisdom': 1, 'charisma': 0})"
+    },
+    {
+      "check": "Cyclops HP derives",
+      "passed": true,
+      "detail": "(140, 140)"
+    },
+    {
+      "check": "Cyclops DB derives",
+      "passed": true,
+      "detail": "(18, 18)"
+    },
+    {
+      "check": "Cyclops saves derive",
+      "passed": true,
+      "detail": "({'fortitude': 13, 'reflex': 7, 'will': 7}, {'fortitude': 13, 'reflex': 7, 'will': 7})"
+    },
+    {
+      "check": "Cyclops initiative derives",
+      "passed": true,
+      "detail": "(5, 5)"
+    },
+    {
+      "check": "Cyclops DR derives",
+      "passed": true,
+      "detail": "(4, 4)"
+    },
+    {
+      "check": "Cyclops skill athletics",
+      "passed": true,
+      "detail": "(11, 11)"
+    },
+    {
+      "check": "Cyclops skill climbing",
+      "passed": true,
+      "detail": "(6, 6)"
+    },
+    {
+      "check": "Cyclops skill culture",
+      "passed": true,
+      "detail": "(8, 8)"
+    },
+    {
+      "check": "Cyclops skill intimidate",
+      "passed": true,
+      "detail": "(7, 7)"
+    },
+    {
+      "check": "Cyclops skill nature",
+      "passed": true,
+      "detail": "(8, 8)"
+    },
+    {
+      "check": "Cyclops skill perception",
+      "passed": true,
+      "detail": "(8, 8)"
+    },
+    {
+      "check": "Cyclops skill senseMotive",
+      "passed": true,
+      "detail": "(8, 8)"
+    },
+    {
+      "check": "Cyclops skill stealth",
+      "passed": true,
+      "detail": "(6, 6)"
+    },
+    {
+      "check": "Cyclops skill survival",
+      "passed": true,
+      "detail": "(7, 7)"
+    },
+    {
+      "check": "Cyclops attack Slam",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Cyclops attack Greataxe",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Cyclops attack Heavy Crossbow",
+      "passed": true,
+      "detail": "(7, 7)"
+    },
+    {
+      "check": "Zylar abilities derive",
+      "passed": true,
+      "detail": "({'strength': 3, 'constitution': 2, 'dexterity': 0, 'intelligence': 5, 'wisdom': 3, 'charisma': 0}, {'strength': 3, 'constitution': 2, 'dexterity': 0, 'intelligence': 5, 'wisdom': 3, 'charisma': 0})"
+    },
+    {
+      "check": "Zylar HP derives",
+      "passed": true,
+      "detail": "(139, 139)"
+    },
+    {
+      "check": "Zylar DB derives",
+      "passed": true,
+      "detail": "(19, 19)"
+    },
+    {
+      "check": "Zylar saves derive",
+      "passed": true,
+      "detail": "({'fortitude': 9, 'reflex': 7, 'will': 18}, {'fortitude': 9, 'reflex': 7, 'will': 18})"
+    },
+    {
+      "check": "Zylar initiative derives",
+      "passed": true,
+      "detail": "(35, 35)"
+    },
+    {
+      "check": "Zylar DR derives",
+      "passed": true,
+      "detail": "(2, 2)"
+    },
+    {
+      "check": "Zylar skill arcana",
+      "passed": true,
+      "detail": "(14, 14)"
+    },
+    {
+      "check": "Zylar skill athletics",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Zylar skill climbing",
+      "passed": true,
+      "detail": "(9, 9)"
+    },
+    {
+      "check": "Zylar skill culture",
+      "passed": true,
+      "detail": "(14, 14)"
+    },
+    {
+      "check": "Zylar skill intimidate",
+      "passed": true,
+      "detail": "(9, 9)"
+    },
+    {
+      "check": "Zylar skill meditation",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Zylar skill mentalFocus",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Zylar skill planes",
+      "passed": true,
+      "detail": "(14, 14)"
+    },
+    {
+      "check": "Zylar skill perception",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Zylar skill powerManipulation",
+      "passed": true,
+      "detail": "(14, 14)"
+    },
+    {
+      "check": "Zylar skill senseMotive",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Zylar skill survival",
+      "passed": true,
+      "detail": "(12, 12)"
+    },
+    {
+      "check": "Zylar attack Slam",
+      "passed": true,
+      "detail": "(11, 11)"
+    },
+    {
+      "check": "Triclops abilities derive",
+      "passed": true,
+      "detail": "({'strength': 4, 'constitution': 2, 'dexterity': 0, 'intelligence': 5, 'wisdom': 4, 'charisma': 6}, {'strength': 4, 'constitution': 2, 'dexterity': 0, 'intelligence': 5, 'wisdom': 4, 'charisma': 6})"
+    },
+    {
+      "check": "Triclops HP derives",
+      "passed": true,
+      "detail": "(273, 273)"
+    },
+    {
+      "check": "Triclops DB derives",
+      "passed": true,
+      "detail": "(33, 33)"
+    },
+    {
+      "check": "Triclops saves derive",
+      "passed": true,
+      "detail": "({'fortitude': 21, 'reflex': 18, 'will': 19}, {'fortitude': 21, 'reflex': 18, 'will': 19})"
+    },
+    {
+      "check": "Triclops initiative derives",
+      "passed": true,
+      "detail": "(40, 40)"
+    },
+    {
+      "check": "Triclops DR derives",
+      "passed": true,
+      "detail": "(6, 6)"
+    },
+    {
+      "check": "Triclops skill arcana",
+      "passed": true,
+      "detail": "(23, 23)"
+    },
+    {
+      "check": "Triclops skill athletics",
+      "passed": true,
+      "detail": "(20, 20)"
+    },
+    {
+      "check": "Triclops skill climbing",
+      "passed": true,
+      "detail": "(10, 10)"
+    },
+    {
+      "check": "Triclops skill culture",
+      "passed": true,
+      "detail": "(15, 15)"
+    },
+    {
+      "check": "Triclops skill deception",
+      "passed": true,
+      "detail": "(16, 16)"
+    },
+    {
+      "check": "Triclops skill intimidate",
+      "passed": true,
+      "detail": "(18, 18)"
+    },
+    {
+      "check": "Triclops skill meditation",
+      "passed": true,
+      "detail": "(15, 15)"
+    },
+    {
+      "check": "Triclops skill mentalFocus",
+      "passed": true,
+      "detail": "(20, 20)"
+    },
+    {
+      "check": "Triclops skill occultism",
+      "passed": true,
+      "detail": "(15, 15)"
+    },
+    {
+      "check": "Triclops skill perception",
+      "passed": true,
+      "detail": "(22, 22)"
+    },
+    {
+      "check": "Triclops skill planes",
+      "passed": true,
+      "detail": "(15, 15)"
+    },
+    {
+      "check": "Triclops skill powerManipulation",
+      "passed": true,
+      "detail": "(23, 23)"
+    },
+    {
+      "check": "Triclops skill senseMotive",
+      "passed": true,
+      "detail": "(18, 18)"
+    },
+    {
+      "check": "Triclops skill survival",
+      "passed": true,
+      "detail": "(13, 13)"
+    },
+    {
+      "check": "Triclops attack Slam",
+      "passed": true,
+      "detail": "(25, 25)"
+    },
+    {
+      "check": "Cyclops Heavy Crossbow missile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cyclops starts with 20 bolts",
+      "passed": true,
+      "detail": "20"
+    },
+    {
+      "check": "Cyclops repertoire no invented names",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar Mage Armour embedded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zylar Mage Armour learned not innate",
+      "passed": true,
+      "detail": "False"
+    },
+    {
+      "check": "Triclops Blast of Energy structured",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops Dominate focus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Triclops See Invisible constant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/creature-compendium-filter.mjs byte-identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/creature-compendium-filter.mjs syntax",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "check": "scripts/dragon-framework.mjs byte-identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/dragon-framework.mjs syntax",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "check": "scripts/template-framework.mjs byte-identical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "scripts/template-framework.mjs syntax",
+      "passed": true,
+      "detail": "0"
+    }
+  ]
+}
