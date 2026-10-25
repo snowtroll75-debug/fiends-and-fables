@@ -1,0 +1,78 @@
+name: Publish Fiends and Fables for Foundry
+
+# On a push to main: if module.json carries a version with no release yet
+# (neither v<version> nor a re-cut v<version>_N), package main's module
+# content (everything but .git, .github and README.md, module.json at the
+# archive root, the same layout the import workflow produces) and publish it
+# as release v<version> with the asset fiends-and-fables.zip, which
+# module.json's "download" names. A push that does not raise the version
+# publishes nothing. The import workflow is unchanged and still works for a
+# release created by hand.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fiends-fables-import
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read and check module.json
+        id: version
+        shell: bash
+        run: |
+          node <<'EOF' >> "$GITHUB_OUTPUT"
+          const m = JSON.parse(require("fs").readFileSync("module.json", "utf8"));
+          const repo = process.env.GH_REPO;
+          const fail = (why) => { console.error(`module.json: ${why}`); process.exit(1); };
+          if (m.id !== "fiends-and-fables-prime") fail(`id is "${m.id}"`);
+          const tag = `v${m.version}`;
+          const manifest = `https://raw.githubusercontent.com/${repo}/main/module.json`;
+          const download = `https://github.com/${repo}/releases/download/${tag}/fiends-and-fables.zip`;
+          if (m.manifest !== manifest) fail(`"manifest" should be ${manifest}`);
+          if (m.download !== download) fail(`"download" should be ${download} (raise it with the version)`);
+          console.log(`tag=${tag}`);
+          EOF
+
+      - name: Check the version hasn't been released
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          existing=$(gh api "repos/$GH_REPO/releases?per_page=100" --paginate --jq '.[].tag_name' | grep -E "^${TAG//./\\.}(_[0-9]+)?$" || true)
+          if [ -n "$existing" ]; then
+            echo "Already released as: $existing; nothing published."
+            echo "skip=true" >> "$GITHUB_ENV"
+          fi
+
+      - name: Package module for Foundry
+        if: env.skip != 'true'
+        run: |
+          mkdir -p "$RUNNER_TEMP/staging"
+          tar --exclude=./.git --exclude=./.github --exclude=./README.md -cf - . | tar -xf - -C "$RUNNER_TEMP/staging"
+          for field in esmodules styles; do
+            node -e "const m=require('$RUNNER_TEMP/staging/module.json');for(const f of m['$field']??[]){if(!require('fs').existsSync('$RUNNER_TEMP/staging/'+f)){console.error('Missing $field: '+f);process.exit(1)}}"
+          done
+          node -e "const m=require('$RUNNER_TEMP/staging/module.json');for(const p of m.packs??[]){if(!require('fs').existsSync('$RUNNER_TEMP/staging/'+p.path+'/CURRENT')){console.error('Missing pack '+p.path);process.exit(1)}}"
+          (cd "$RUNNER_TEMP/staging" && zip -qr "$GITHUB_WORKSPACE/fiends-and-fables.zip" . -x '*.git*' '*/LOCK')
+          unzip -p "$GITHUB_WORKSPACE/fiends-and-fables.zip" module.json | node -e "let s='';process.stdin.on('data',b=>s+=b).on('end',()=>{const m=JSON.parse(s);if(m.id!=='fiends-and-fables-prime')process.exit(1);console.log('Packaged',m.id,m.version)})"
+
+      - name: Create the tagged release
+        if: env.skip != 'true'
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          gh release create "$TAG" fiends-and-fables.zip --target "$GITHUB_SHA" --title "$TAG" \
+            --notes "Fiends & Fables Prime $TAG. Install with the manifest link https://raw.githubusercontent.com/${GH_REPO}/main/module.json"

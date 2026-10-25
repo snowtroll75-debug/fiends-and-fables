@@ -2,7 +2,7 @@
   "id": "fiends-and-fables-prime",
   "title": "Fiends & Fables Prime",
   "description": "Fiends & Fables Prime creature compendium — 294 native creature Actors, 13 reusable transformation templates, races, heritages, abilities and the Chapter 3 feats. v0.12.2 (with TRG Prime 3.633.1; 0.12.2 restores the Aboleth Magi's item effects; 0.12.1 repaired the Magi's and four Agothians' item lists and starts Focus innates ready; Fiends & Fables 3.0 block 3): every innate spell declares its stat block's printed DC and modifier; Focus innates carry the Focus trait; 106 weapon riders (\"plus 2d6 good\") are declared secondary packets; the Aboleth is Aquatic with an automated Mucus Cloud and Slime; the Aboleth Magi is the Aboleth plus its Ethereal Caster block; Eternal Essence on four Agothians; Aetherlings and Agothians are Extraplanar. See reports/.",
-  "version": "0.45.0",
+  "version": "0.45.2",
   "compatibility": {
     "minimum": "14",
     "verified": "14.367"
@@ -93,5 +93,5 @@
     "styles/creature-compendium-filter.css"
   ],
   "manifest": "https://raw.githubusercontent.com/snowtroll75-debug/fiends-and-fables/main/module.json",
-  "download": "https://github.com/snowtroll75-debug/fiends-and-fables/releases/download/v0.45.0_2/fiends-and-fables.zip"
+  "download": "https://github.com/snowtroll75-debug/fiends-and-fables/releases/download/v0.45.2/fiends-and-fables.zip"
 }
