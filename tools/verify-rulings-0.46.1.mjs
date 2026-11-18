@@ -34,8 +34,14 @@ for (const [name, ft] of [["Cold Dragon, Scaleborn", 15], ["Cold Dragon, Talon",
   ok(`RD-06 ${name} no source exception`, !f.sourceException);
   ok(`RD-06 ${name} breath still Focus, 0 PP, own data`, /Focus/.test(b.system.traits) && f.breath.ppCost === 0 && b.flags["trg-prime"].codexInherit === false);
 }
+// 0.46.2 (Graham, 18 Nov 2026): every Eternal carries its type's Returned Essence once.
+for (const a of eternals) {
+  const re = a.items.filter((i) => i.name === "Returned Essence");
+  ok(`0.46.2 ${a.name} has Returned Essence once`, re.length === 1 && re[0].type === "ability" && (re[0].effects ?? []).length === 0, String(re.length));
+  ok(`0.46.2 ${a.name} item ids unique`, new Set(a.items.map((i) => i._id)).size === a.items.length);
+}
 ok("RD-06 no source exceptions remain", !actors.some((a) => a.items.some((i) => i.flags?.["fiends-and-fables-prime"]?.sourceException)));
 
-console.log(`verify-rulings-0.46.1: ${pass} passed, ${fail.length} failed`);
+console.log(`verify-rulings-0.46.1 (+0.46.2): ${pass} passed, ${fail.length} failed`);
 for (const f of fail) console.log(`  ✗ ${f}`);
 process.exitCode = fail.length ? 1 : 0;

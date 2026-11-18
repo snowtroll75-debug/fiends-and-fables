@@ -1,8 +1,8 @@
 {
   "id": "fiends-and-fables-prime",
   "title": "Fiends & Fables Prime",
-  "description": "Fiends & Fables Prime creature compendium — 294 native creature Actors, 13 reusable transformation templates, races, heritages, abilities and the Chapter 3 feats (Fiends & Fables 3.0). v0.46.1 (Graham’s rulings of 18 Nov 2026, verified with TRG Prime 3.699.0): Eternals have no Death State; Oozes are immune to disease and precision; the Cold Dragon Talon and Sovereign breathe the Dragon Level Table’s 30- and 40-foot cones. v0.46.0 (joint TRG Prime Codex / Fiends & Fables audit): Undead type immunities match the core type; Archangel DR no longer doubled; Raven Swarm and Synarmi initiative/skills match their blocks; Behir, Cave Bear and Mite Swarm carry their printed race/heritage traits; crossbows use the Bow group with Crossbow ammunition; generated dragons gain each progression ability once and their Bite carries its energy packet; true dragon breath keeps its own Focus data; Ghost, Lich, Skeleton and Zombie templates apply and remove cleanly; stale pack artefacts removed. Works with or without TRG Prime Codex. See reports/.",
-  "version": "0.46.1",
+  "description": "Fiends & Fables Prime creature compendium — 294 native creature Actors, 13 reusable transformation templates, races, heritages, abilities and the Chapter 3 feats (Fiends & Fables 3.0). v0.46.2: every Eternal carries its type’s Returned Essence. v0.46.1 (Graham’s rulings of 18 Nov 2026, verified with TRG Prime 3.699.0): Eternals have no Death State; Oozes are immune to disease and precision; the Cold Dragon Talon and Sovereign breathe the Dragon Level Table’s 30- and 40-foot cones. v0.46.0 (joint TRG Prime Codex / Fiends & Fables audit): Undead type immunities match the core type; Archangel DR no longer doubled; Raven Swarm and Synarmi initiative/skills match their blocks; Behir, Cave Bear and Mite Swarm carry their printed race/heritage traits; crossbows use the Bow group with Crossbow ammunition; generated dragons gain each progression ability once and their Bite carries its energy packet; true dragon breath keeps its own Focus data; Ghost, Lich, Skeleton and Zombie templates apply and remove cleanly; stale pack artefacts removed. Works with or without TRG Prime Codex. See reports/.",
+  "version": "0.46.2",
   "compatibility": {
     "minimum": "14",
     "verified": "14.367"
@@ -100,5 +100,5 @@
     "styles/creature-compendium-filter.css"
   ],
   "manifest": "https://raw.githubusercontent.com/snowtroll75-debug/fiends-and-fables/main/module.json",
-  "download": "https://github.com/snowtroll75-debug/fiends-and-fables/releases/download/v0.46.1/fiends-and-fables.zip"
+  "download": "https://github.com/snowtroll75-debug/fiends-and-fables/releases/download/v0.46.2/fiends-and-fables.zip"
 }

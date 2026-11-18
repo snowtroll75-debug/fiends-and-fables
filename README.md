@@ -4,6 +4,10 @@ Foundry VTT module for TRG Prime: the Fiends & Fables 3.0 creature compendium (2
 
 ## Changelog
 
+### 0.46.2 — 18 November 2026
+
+Every Eternal carries its type's Returned Essence card. Graham's request; details are in `reports/Fiends-and-Fables-Prime-0.46.2-Report.md`.
+
 ### 0.46.1 — 18 November 2026
 
 Graham's rulings, verified with TRG Prime 3.699.0: Eternals have no Death State, Oozes are immune to disease and precision, and the Cold Dragon Talon and Sovereign breathe the Dragon Level Table's 30- and 40-foot cones. Details are in `reports/Fiends-and-Fables-Prime-0.46.1-Report.md`.
@@ -15,5 +19,6 @@ Joint TRG Prime Codex / Fiends & Fables audit, verified with TRG Prime 3.698.4. 
 ## Development
 
 - `tools/joint-audit-0.46.0.mjs` applies the 0.46.0 data repairs; it is idempotent, and `--check` reports what it would change. `tools/verify-joint-audit-0.46.0.mjs` verifies them. Both need `classic-level`: set `CLASSIC_LEVEL_ROOT` to a folder whose `node_modules` has it, such as a TRG Prime checkout.
+- `tools/returned-essence-0.46.2.mjs`: the 0.46.2 Returned Essence data.
 - `tools/rulings-0.46.1.mjs` and `tools/verify-rulings-0.46.1.mjs`: the 0.46.1 rulings data and its checks.
 - `tests/live/creature-battery.mjs` is the shared behaviour battery, run from the GM console in a disposable world.
