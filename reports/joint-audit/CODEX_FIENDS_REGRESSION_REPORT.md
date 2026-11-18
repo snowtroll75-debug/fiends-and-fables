@@ -83,3 +83,27 @@ The patch (`core-proposal/CO-01-grant-base-name.patch`, one function in `module/
 | The 19 core verify scripts that exercise grants, grant auto-run, sourcebook/module federation, feats, focus declarations and granted senses or warps (`verify-audit-3698`, `-block10-core`, `-block3-core`, `-block40-aspects`, `-chapter2`, `-chooser-duplicates`, `-chooser-index-fields`, `-feat-budget-grants`, `-feat-grants`, `-focus-declarations`, `-granted-senses`, `-granted-warps`, `-heritage-derives`, `-module-api`, `-module-classes`, `-module-feats`, `-sourcebooks`, `-specialist-alternative`, `-unliving-mechanisms`) | 19 / 19 pass |
 | Full `npm run verify` | **Not completed.** It was stopped at this environment's 30-minute limit, with no failure reported before then. It must run in full before any core release. |
 | Live acceptance (after approval) | Ghost on a Ghoul, then any grant pass: exactly one Darkvision. Then the companion regressions (Pillars of Faith, Inner Tempest, Eldritch Arts) and this battery. |
+
+## 7. Graham's rulings (18 November 2026): core 3.699.0, Codex 0.2.1, Fiends & Fables 0.46.1
+
+| Check | Result |
+|---|---|
+| Fiends `tools/rulings-0.46.1.mjs --check` after applying | No further changes |
+| Fiends `tools/verify-rulings-0.46.1.mjs`: 47 Eternals without a Death State, 6 Oozes with disease and precision immunity (v13 and v14 rows agree), Cold Dragon breaths at the table's 15/30/40 ft with flag, activation and description consistent | 77 passed, 0 failed |
+| Fiends `tools/verify-joint-audit-0.46.0.mjs` (unchanged repairs still hold) | 422 passed, 0 failed |
+| Codex `tests/joint-audit.test.mjs`, including a new test for Tiny/Diminutive reach 0 with an unchanged size DP and the native Ooze and Eternal copies | 9 / 9 pass; 0.1.5 vs 0.2.1 Codex-built ledgers identical |
+| Packaged packs (both ZIPs) opened strictly without repair | all 10 open; row counts as built |
+| Core `verify-joint-audit-3699` / `mutate-joint-audit-3699` | 34 checks green; 16 of 16 mutations caught |
+| Core `verify-chapter1` / `mutate-chapter1` (ability collapse) | 302 checks green; 52 of 52 mutations caught |
+| Core full regression suite (core harness + Pillars of Faith, Inner Tempest, Eldritch Arts suites) | see §8 |
+
+## 8. Core 3.699.0 full regression suite
+
+| Suite | Result |
+|---|---|
+| TRG Prime core (`tools/regression-suite.mjs`: every verify and mutation file, plus the meta checks) | **759 of 759 pass** |
+| Pillars of Faith 0.12.5 | 11 / 11 pass |
+| Inner Tempest 1.0.4 | 19 pass, 2 blocked (book text not in this environment), `mutate-block8` failing on the module side, as at every run since 3.697.0 |
+| Eldritch Arts 0.17.2 | 55 pass, 1 blocked (book source), `mutate-block10b` failing on the module side, as at every run since 3.697.0 |
+
+The packaged `trg-prime-3.699.0.zip` was built from a clean checkout of the release commit. Its creature-types pack opens strictly and carries the Eternal and Ooze changes. Details are in the core's TRG_CORE_TEST_REPORT.md §10.
