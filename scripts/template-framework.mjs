@@ -223,7 +223,16 @@ function makeWeapon(spec, key) {
       proficiency: "", fumbleDC: 5, attackMode: "melee", rangeIncrement: 0, group: "Brawling", category: "", size: spec.size ?? "medium", itemLevel: 0,
       quality: "standard", material: "", superiorTraits: "", runes: "", loaded: true, magazine: 0, reloadProgress: 0, usedQuickLoadThisRound: false, spinBonus: 0, attackedThisTurn: false, natural: true
     },
-    flags: { ...templateFlags(key), ...(spec.secondaryDamage ? { [MODULE_ID]: { templateKey: key, templateGenerated: true, secondaryDamage: spec.secondaryDamage } } : {}) }
+    flags: {
+      ...templateFlags(key),
+      ...(spec.secondaryDamage ? {
+        [MODULE_ID]: { templateKey: key, templateGenerated: true, secondaryDamage: spec.secondaryDamage },
+        // FF-12 (0.46.0): the packet TRG Prime rolls. The module's own
+        // secondaryDamage flag has no reader in core, so the Lich's Bony Hand
+        // never dealt its 2d8 essence.
+        "trg-prime": { creatureAttack: { secondary: [{ dice: spec.secondaryDamage.formula, type: spec.secondaryDamage.type }] }, statBlockWeapon: true }
+      } : { "trg-prime": { statBlockWeapon: true } })
+    }
   };
 }
 
@@ -336,10 +345,13 @@ async function applyGhostAttacks(actor, key, state) {
   const updates = [];
   for (const item of actor.items.filter((i) => i.type === "weapon" && i.system?.natural)) {
     const source = item.toObject();
-    state.changedNaturalAttacks.push({ id: item.id, damageType: source.system?.damageType ?? "", description: source.system?.description ?? "", flags: source.flags?.[MODULE_ID] ?? null });
+    const coreAttack = source.flags?.["trg-prime"]?.creatureAttack ?? null;
+    state.changedNaturalAttacks.push({ id: item.id, damageType: source.system?.damageType ?? "", description: source.system?.description ?? "", flags: source.flags?.[MODULE_ID] ?? null, coreAttack });
     // ghostConvertedKey (not templateKey) — templateKey marks GENERATED items, and removal deletes those.
     const f = { ...(item.flags?.[MODULE_ID] ?? {}), ghostConvertedKey: key, ghostOriginalDamageType: source.system?.damageType ?? "", secondaryDamage: { formula: "1d6", type: "cold" } };
-    updates.push({ _id: item.id, "system.damageType": "essence", [`flags.${MODULE_ID}`]: f });
+    // FF-12 (0.46.0): Essence Attacks' "1d6 secondary cold damage" as the packet core rolls.
+    const secondary = [...(coreAttack?.secondary ?? []).filter((p) => !p?.ghostTemplate), { dice: "1d6", type: "cold", ghostTemplate: true }];
+    updates.push({ _id: item.id, "system.damageType": "essence", [`flags.${MODULE_ID}`]: f, "flags.trg-prime.creatureAttack": { ...(coreAttack ?? {}), secondary } });
   }
   if (updates.length) await actor.updateEmbeddedDocuments("Item", updates);
 }
@@ -389,8 +401,25 @@ export async function applyTemplate(actor, key, { force = false } = {}) {
   };
 
   try {
-    if (def.undead) await replaceCreatureType(actor, key, state);
+    // A CREATURE THAT IS ALREADY UNDEAD KEEPS ITS OWN TYPE (0.46.0, FF-15).
+    // Replacing it deleted the senses its type had granted ("Darkvision
+    // (60 ft.)" on the Ghoul), and removal brought back the generic ones.
+    if (def.undead && String(actorCreatureType(actor)).toLowerCase() !== "undead") await replaceCreatureType(actor, key, state);
     await createTemplateItem(actor, key, state);
+    // MINDLESS IS A CREATURE TRAIT (0.46.0, FF-14). TRG Prime recognises a
+    // mindless creature by the trait, and only then excuses Intelligence and
+    // Charisma at -5 from the "comatose / unconscious" collapse (Core p. 13).
+    // The Skeleton and Zombie templates grant Mindless as an ability card only,
+    // so setting those scores to -5 knocked the creature Unconscious and Prone.
+    // The trait goes on BEFORE the modifications are computed, so the core's
+    // own Mindless -5 is counted and the scores still land exactly on -5.
+    if ((def.customGrants ?? []).includes("Mindless") || Number(def.setAbilities?.intelligence) <= -5) {
+      const traits = String(actor.system?.details?.traits ?? "");
+      if (!/\bmindless\b/i.test(traits)) {
+        state.previousTraits = traits;
+        await actor.update({ "system.details.traits": traits.trim() ? `${traits.trim()}, Mindless` : "Mindless" });
+      }
+    }
     state.generatedEffectIds.push(...await createActorEffect(actor, def, key));
     for (const [name, pack] of def.senses ?? []) await grantCore(actor, key, name, pack, state);
     for (const [name, pack] of def.coreGrants ?? []) await grantCore(actor, key, name, pack, state);
@@ -413,6 +442,7 @@ export async function applyTemplate(actor, key, { force = false } = {}) {
       if (itemIds.length) await actor.deleteEmbeddedDocuments("Item", itemIds);
       const effectIds = actor.effects.filter((e) => e.flags?.[MODULE_ID]?.templateKey === key).map((e) => e.id);
       if (effectIds.length) await actor.deleteEmbeddedDocuments("ActiveEffect", effectIds);
+      if (typeof state.previousTraits === "string") await actor.update({ "system.details.traits": state.previousTraits });
       if (state.replacedCreatureTypes?.length && !actor.items.some((i) => i.type === "creature-type")) {
         await actor.createEmbeddedDocuments("Item", state.replacedCreatureTypes.map((s) => { const x = foundry.utils.deepClone(s); delete x._id; return x; }));
       }
@@ -444,9 +474,11 @@ export async function removeTemplate(actor, key) {
       [`flags.${MODULE_ID}.-=ghostConvertedKey`]: null,
       [`flags.${MODULE_ID}.-=templateKey`]: null,
       [`flags.${MODULE_ID}.-=ghostOriginalDamageType`]: null,
-      [`flags.${MODULE_ID}.-=secondaryDamage`]: null
+      [`flags.${MODULE_ID}.-=secondaryDamage`]: null,
+      ...(snap.coreAttack ? { "flags.trg-prime.creatureAttack": snap.coreAttack } : { "flags.trg-prime.-=creatureAttack": null })
     });
   }
+  if (typeof state.previousTraits === "string") await actor.update({ "system.details.traits": state.previousTraits });
   if (state.skillRanks) {
     const updates = {};
     for (const [name, value] of Object.entries(state.skillRanks)) updates[`system.skills.${name}.ranks`] = value;

@@ -1,0 +1,68 @@
+[
+ {
+  "type": "race",
+  "name": "Thornkin",
+  "from": "Thornkin",
+  "why": "creature: combat.resistances=, bludgeoning, combat.resistances=, cold, combat.resistances=, piercing | pack had: combat.resistances=, cold, physical (slashing)"
+ },
+ {
+  "type": "race",
+  "name": "Wysp",
+  "from": "Wysp",
+  "why": "creature: combat.resistances=, all damage except force (cold iron) | pack had: combat.resistances=, all damage (cold iron, force)"
+ },
+ {
+  "type": "race",
+  "name": "Spectre",
+  "from": "Spectre",
+  "why": "creature: combat.resistances=, all damage except force or essence | pack had: combat.resistances=, all damage (force, essence)"
+ },
+ {
+  "type": "race",
+  "name": "Banshee",
+  "from": "Banshee",
+  "why": "creature: combat.resistances=, all damage except force or essence | pack had: combat.resistances=, all damage (force, essence)"
+ },
+ {
+  "type": "race",
+  "name": "Sequoia Allium",
+  "from": "Sequoia Allium",
+  "why": "creature: combat.resistances=, cold, combat.resistances=, piercing, combat.resistances=, slashing | pack had: combat.resistances=, cold, physical (bludgeoning)"
+ },
+ {
+  "type": "race",
+  "name": "Wraith",
+  "from": "Wraith",
+  "why": "creature: combat.resistances=, all damage except force or essence | pack had: combat.resistances=, all damage (force, essence)"
+ },
+ {
+  "type": "heritage",
+  "name": "Wrathmorta",
+  "from": "Wrathmorta",
+  "why": "creature: combat.resistances=, piercing, combat.resistances=, slashing | pack had: combat.resistances=, physical (bludgeoning)"
+ },
+ {
+  "type": "heritage",
+  "name": "Flying Rug",
+  "from": "Flying Rug",
+  "why": "creature: combat.immunities=, death effects | pack had: "
+ },
+ {
+  "type": "heritage",
+  "name": "Animus Statue, Giant",
+  "from": "Animus Statue, Giant",
+  "why": "creature:  | pack had: combat.immunities=, necromancy"
+ },
+ {
+  "type": "heritage",
+  "name": "Skeleton Warrior",
+  "from": "Skeleton Warrior",
+  "why": "creature: combat.resistances=, piercing, combat.resistances=, slashing | pack had: combat.resistances=, physical (bludgeoning)"
+ },
+ {
+  "type": "heritage",
+  "name": "Thel",
+  "from": "Thel",
+  "why": "creature: combat.resistances=, all damage except force | pack had: combat.resistances=, all damage (force)"
+ }
+]
