@@ -1,26 +1,26 @@
 # Joint audit — TRG Prime Codex and Fiends & Fables Prime
 
-18 November 2026. Core TRG Prime 3.698.4 (Foundry 14.367), tested in the separate **Test** world. Nothing was installed, pushed, published or deployed.
+18 November 2026. Audited on core TRG Prime 3.698.4 (Foundry 14.367) in the separate **Test** world, then updated the same day with Graham's rulings. Nothing was installed, pushed, published or deployed.
 
 ## Outcome
 
 | Deliverable | Version | Branch (local, not pushed) |
 |---|---|---|
-| TRG Prime Codex | 0.1.5 → **0.2.0** | `joint-audit-0.2.0` |
-| Fiends & Fables Prime | 0.45.2 → **0.46.0** | `joint-audit-0.46.0` (from GitHub `main`) |
-| Core proposal CO-01 | patch against 3.698.4 | `proposed/joint-audit-grant-basename` |
+| TRG Prime core | 3.698.4 → **3.699.0** (rulings, CO-01/02/03) | `release/3.699.0` |
+| TRG Prime Codex | 0.1.5 → 0.2.0 → **0.2.1** | `joint-audit-0.2.0`, then `rulings-0.2.1` |
+| Fiends & Fables Prime | 0.45.2 → 0.46.0 → **0.46.1** | `joint-audit-0.46.0`, then `rulings-0.46.1` (from GitHub `main`) |
 | Shared behaviour battery | `tests/live/creature-battery.mjs` | byte-identical in both modules |
 
 Every finding is in **one register**, `CODEX_FIENDS_DEFECT_REGISTER.md`, with one owner each. The totals:
 
-| Owner | Findings | Fixed | Proposed | Decision |
-|---|---|---|---|---|
-| Fiends & Fables | 16 (FF-01…FF-16) | 16 | — | — |
-| Codex | 7 (CX-01…CX-07) | 7 | — | — |
-| Core | 2 (CO-01, CO-02) | — | 2 | — |
-| Rules (Graham) | 8 (RD-01…RD-08) | — | — | 8 |
+| Owner | Findings | State |
+|---|---|---|
+| Fiends & Fables | 16 (FF-01…FF-16) | Fixed in 0.46.0 |
+| Codex | 7 (CX-01…CX-07) | Fixed in 0.2.0 |
+| Core | 3 (CO-01, CO-02, CO-03) | Fixed in 3.699.0 (approved 18 Nov) |
+| Rules | 8 (RD-01…RD-08) | All ruled 18 Nov; carried in core 3.699.0, Codex 0.2.1 and Fiends 0.46.1 |
 
-No repairable cross-module conflict remains open in either module. What remains is the two core proposals, which belong to the core and are not required by either module, plus Graham's eight rulings.
+No repairable cross-module conflict remains open, and every rules decision has been ruled.
 
 ## How far automation goes
 
@@ -51,7 +51,11 @@ Every published creature's sheet derives to its printed block, with every differ
 
 ## Next steps
 
-1. **Graham installs** `trg-prime-codex-0.2.0.zip` and `fiends-and-fables-prime-0.46.0.zip` into the Test world. Claude then runs the post-install battery in the three configurations, takes the picker screenshot, runs the pack load check, and cleans up.
-2. **Rulings** on RD-01 to RD-08.
-3. **Approval or rejection** of core proposals CO-01 and CO-02. If approved: the full core verify, then the companion regressions.
-4. **Release.** Pushing Fiends `main` publishes a release automatically, so it waits for approval.
+1. **Install in the Test world:** core 3.699.0, Codex 0.2.1 and Fiends & Fables 0.46.1. Then Claude runs:
+   - the shared battery in all three configurations;
+   - the 294-creature re-derivation (the RD-03 and RD-04 differences should disappear);
+   - the Mindless cases;
+   - the picker screenshot and the pack load check;
+   - cleanup.
+2. **Companion regressions** on 3.699.0: Pillars of Faith, Inner Tempest and Eldritch Arts.
+3. **Publishing.** Core and Fiends publish on push to `main`, so pushing waits for Graham's go-ahead.

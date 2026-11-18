@@ -1,6 +1,6 @@
 # Fiends & Fables Prime — dragon framework report
 
-Joint audit, 18 November 2026. Fiends 0.46.0 (`scripts/dragon-framework.mjs`) on core 3.698.4.
+Joint audit, 18 November 2026. Fiends 0.46.0, with Graham's RD-06 ruling carried in 0.46.1 (`scripts/dragon-framework.mjs`) on core 3.698.4.
 
 ## Requirement
 
@@ -21,7 +21,7 @@ Live result (installed 0.45.2, deterministic dice): the published Cold Dragon, T
 
 ## Published breath weapons (24)
 
-Every breath carries Focus, 1 use, 0 PP and `codexInherit: false` in 0.46.0.
+Every breath carries Focus, 1 use, 0 PP and `codexInherit: false` (0.46.0). Distances as in 0.46.1.
 
 | Dragon | Level | Breath | Fiends breath data | Traits | Uses | PP | codexInherit |
 |---|---|---|---|---|---|---|---|
@@ -29,8 +29,8 @@ Every breath carries Focus, 1 use, 0 PP and `codexInherit: false` in 0.46.0.
 | Cave Dragon, Sovereign | 16 | Cave Dragon Breath | {"shape":"line","distance":80,"damage":"16d8","damageType":"acid","ppCost":0} | Acid, Arcane, Focus, Invocation, Save | 1 | 0 | false |
 | Cave Dragon, Talon | 10 | Cave Dragon Breath | {"shape":"line","distance":60,"damage":"10d8","damageType":"acid","ppCost":0} | Acid, Arcane, Focus, Invocation, Save | 1 | 0 | false |
 | Cold Dragon, Scaleborn | 4 | Cold Dragon Breath | {"shape":"cone","distance":15,"genericDistance":15,"damage":"4d8","damageType":"cold","save":"reflex","ppCost":0} | Arcane, Cold, Focus, Invocation, Save | 1 | 0 | false |
-| Cold Dragon, Sovereign | 16 | Cold Dragon Breath | {"shape":"cone","distance":30,"genericDistance":40,"damage":"16d8","damageType":"cold","save":"reflex","ppCost":0} | Arcane, Cold, Focus, Invocation, Save | 1 | 0 | false |
-| Cold Dragon, Talon | 10 | Cold Dragon Breath | {"shape":"cone","distance":20,"genericDistance":30,"damage":"10d8","damageType":"cold","save":"reflex","ppCost":0} | Arcane, Cold, Focus, Invocation, Save | 1 | 0 | false |
+| Cold Dragon, Sovereign | 16 | Cold Dragon Breath | {"shape":"cone","distance":40,"genericDistance":40,"damage":"16d8","damageType":"cold","save":"reflex","ppCost":0} | Arcane, Cold, Focus, Invocation, Save | 1 | 0 | false |
+| Cold Dragon, Talon | 10 | Cold Dragon Breath | {"shape":"cone","distance":30,"genericDistance":30,"damage":"10d8","damageType":"cold","save":"reflex","ppCost":0} | Arcane, Cold, Focus, Invocation, Save | 1 | 0 | false |
 | Fire Dragon, Scaleborn | 6 | Fire Dragon Breath | {"shape":"cone","distance":15,"damage":"6d8","damageType":"fire","save":"reflex","ppCost":0} | Arcane, Fire, Focus, Invocation, Save | 1 | 0 | false |
 | Fire Dragon, Sovereign | 18 | Fire Dragon Breath | {"shape":"cone","distance":40,"damage":"18d8","damageType":"fire","save":"reflex","ppCost":0} | Arcane, Fire, Focus, Invocation, Save | 1 | 0 | false |
 | Fire Dragon, Talon | 12 | Fire Dragon Breath | {"shape":"cone","distance":30,"damage":"12d8","damageType":"fire","save":"reflex","ppCost":0} | Arcane, Fire, Focus, Invocation, Save | 1 | 0 | false |
@@ -50,7 +50,7 @@ Every breath carries Focus, 1 use, 0 PP and `codexInherit: false` in 0.46.0.
 | Shade Dragon, Scaleborn | 7 | Shade Dragon Breath | {"shape":"cone","distance":15,"damage":"7d12","damageType":"coldfire","save":"reflex","ppCost":0} | Arcane, Cold, Fire, Focus, Invocation, Save | 1 | 0 | false |
 | Shade Dragon, Talon | 13 | Shade Dragon Breath | {"shape":"cone","distance":30,"damage":"13d12","damageType":"coldfire","save":"reflex","ppCost":0} | Arcane, Cold, Fire, Focus, Invocation, Save | 1 | 0 | false |
 
-Two Cold Dragon examples keep their printed cones, Talon 20 ft and Sovereign 30 ft, where the generic table gives 30 ft and 40 ft. They are marked `sourceException` with the reason in the description, and RD-06 asks whether the table or the printed examples govern.
+**RD-06, ruled 18 November 2026: the table is followed.** In 0.46.0, two Cold Dragon examples kept their printed cones, Talon 20 ft and Sovereign 30 ft, where the table gives 30 ft and 40 ft. In 0.46.1 they follow the table: Talon 30 ft and Sovereign 40 ft, with no exceptions left (`tools/rulings-0.46.1.mjs`).
 
 ## Advancement repairs
 

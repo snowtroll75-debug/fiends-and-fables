@@ -6,8 +6,8 @@ Joint audit, 18 November 2026. Tested against TRG Prime core **3.698.4** only (F
 
 | Module | Version | `relationships.systems` trg-prime minimum → verified | Other modules |
 |---|---|---|---|
-| TRG Prime Codex | 0.1.5 → **0.2.0** | 3.685.2 → **3.698.4** (verified was 3.685.2) | Recommends Fiends & Fables Prime (optional) |
-| Fiends & Fables Prime | 0.45.2 → **0.46.0** | 3.663.0 → **3.698.4** (verified was 3.663.4) | Recommends TRG Prime Codex (optional) |
+| TRG Prime Codex | 0.1.5 → 0.2.0 → **0.2.1** | 3.685.2 → **3.699.0** (verified was 3.685.2) | Recommends Fiends & Fables Prime (optional) |
+| Fiends & Fables Prime | 0.45.2 → 0.46.0 → **0.46.1** | 3.663.0 → **3.699.0** (verified was 3.663.4) | Recommends TRG Prime Codex (optional) |
 
 The minimum versions were left as they were. Every behaviour added in this audit is data that older cores ignore rather than misread (§3). Neither module requires the other.
 
@@ -29,14 +29,14 @@ The minimum versions were left as they were. Every behaviour added in this audit
 | Feats workflow (`feats-workflow.mjs`) | — | Familiar feats | — |
 | Size table (`SIZE_TABLE` reach) | Blocks a mismatched apply | — | RD-02 |
 
-## 2. Core changes proposed (not applied)
+## 2. Core changes, approved 18 November 2026 and built into core 3.699.0 (not yet installed)
 
 | ID | File | Change | Why | Companion regression on release |
 |---|---|---|---|---|
 | CO-01 | `module/grants-workflow.mjs` | `applyGrant` holds ability items under their base name as well as their full name: "darkvision (60 ft.)" is held as "darkvision" too. Patch: `core-proposal/CO-01-grant-base-name.patch`. | Stops later grant passes adding a generic sense beside a printed-range one. This affects every published creature with a printed sense range, not only templates. | Pillars of Faith, Inner Tempest, Eldritch Arts, Codex, Fiends battery |
 | CO-02 | `packs/creature-types` (Ooze) | Add `, precision` to the Ooze type's `system.combat.immunities` effect | Codex 1.6 and the printed Ochre Jelly list precision. Core already resolves "precision" as an immunity token. | Codex (copy of the type), Fiends (6 embedded Ooze types); same battery |
 
-Neither change is required for Codex 0.2.0 or Fiends 0.46.0 to work. Each closes a gap that both modules currently inherit.
+Neither change is required for the modules to work. Each closes a gap both modules inherited. Core 3.699.0 also carries CO-03 (Mindless creatures are never collapsed by mental scores; the Mindless ethic counts; gaining Mindless re-settles), RD-01 (Eternal has no Death State), RD-03 (the Swim/Climb +4 only on the Swim and Climb actions), RD-04 (Keen Sense on the Perception total) and RD-08 (Ooze disease immunity). Codex 0.2.1 and Fiends 0.46.1 are verified with 3.699.0.
 
 ## 3. Behaviour on cores older than 3.698.4 (untested)
 

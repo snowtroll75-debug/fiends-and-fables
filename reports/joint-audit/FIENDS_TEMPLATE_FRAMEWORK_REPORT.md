@@ -51,8 +51,8 @@ Removal deletes exactly the marked items and the template's effect, then restore
 - Lich Bony Hand dealt 2d8 essence. Ghost attacks dealt 1d6 cold, and removal restored the original attack data.
 - Ghost and Lich on a Ghoul: the Ghoul keeps its Undead type through apply and removal (FF-15, FF-16).
 - Werewolf: abilities, DR, resistance and weakness applied once, and removal was clean.
-- Residual, owned by core: Ghost on a Ghoul leaves one extra generic "Darkvision" beside the printed "Darkvision (60 ft.)". The core grant pass compares exact names. This is CO-01 (proposed core patch), not a template defect.
+- Residual, owned by core: Ghost on a Ghoul leaves one extra generic "Darkvision" beside the printed "Darkvision (60 ft.)". The core grant pass compares exact names. This is CO-01, fixed in core 3.699.0, not a template defect.
 
 ## No duplicated benefits
 
-Each template's statistics live in one effect. Its abilities exist once, and a granted ability is skipped if the creature already holds one with the same base name. Only one Fiends & Fables template can be on an actor at a time: the framework refuses a second, which keeps restoration deterministic. The 13 live cases were therefore applied and removed one after another. Provenance is stored on every generated item and on the actor. The CO-01 core patch would close the one remaining duplicate path, printed-range senses.
+Each template's statistics live in one effect. Its abilities exist once, and a granted ability is skipped if the creature already holds one with the same base name. Only one Fiends & Fables template can be on an actor at a time: the framework refuses a second, which keeps restoration deterministic. The 13 live cases were therefore applied and removed one after another. Provenance is stored on every generated item and on the actor. Core 3.699.0 (CO-01) closes the one remaining duplicate path, printed-range senses.

@@ -1,21 +1,20 @@
 # Codex / Fiends & Fables — single cross-module defect register
 
-Joint audit of TRG Prime Core 3.698.4, TRG Prime Codex 0.1.5 → **0.2.0** and Fiends & Fables Prime 0.45.2 → **0.46.0**, 18 November 2026.
+Joint audit of TRG Prime Core 3.698.4, TRG Prime Codex 0.1.5 → **0.2.0** and Fiends & Fables Prime 0.45.2 → **0.46.0**, 18 November 2026. Updated the same day with Graham's rulings: Core **3.699.0**, Codex **0.2.1**, Fiends & Fables **0.46.1**.
 
 This is the only defect list for the audit. Every finding has exactly one owner: **Core**, **Codex**, **Fiends** (Fiends & Fables Prime), or **Rules** (a decision for Graham). The other reports refer to these IDs rather than keeping their own lists.
 
 Status key:
 - **Fixed — live**: repaired, and the repair was exercised in the Test world during this audit. Those runs used development copies served from a scratch folder, not the installed module, so the post-install re-run (§6) is still owed.
 - **Fixed — static**: repaired and checked by the Node suites or pack verifiers. A live check is planned for the post-install battery.
-- **Proposed**: drafted for a module Graham owns separately (Core). Not applied or deployed.
-- **Decision**: needs Graham's ruling. Data is left as printed until he rules.
+- **Fixed in 3.699.0**: core change approved by Graham and built into core 3.699.0; not yet installed or published.
 - **Note**: checked and found correct or harmless. Recorded so nobody re-investigates it.
 
 Baseline check: the uploaded `fiends-and-fables-prime.zip` 0.45.2 is the GitHub 0.45.2 release after Foundry v14's load-time migration. Normalised, both copies hold the same documents. The only differences are schema defaults Foundry fills in, and 10 orphan effect rows that appear only in the GitHub copy (FF-11). The repairs were made on the GitHub tree, so the repository history stays intact.
 
 ---
 
-## 1. Fiends & Fables Prime (owner: Fiends) — fixed in 0.46.0
+## 1. Fiends & Fables Prime (owner: Fiends) — fixed in 0.46.0 (rulings carried in 0.46.1)
 
 | ID | Area | Symptom | Root cause | Repair | Evidence | Status |
 |---|---|---|---|---|---|---|
@@ -36,7 +35,7 @@ Baseline check: the uploaded `fiends-and-fables-prime.zip` 0.45.2 is the GitHub 
 | FF-15 | Undead templates on Undead creatures | Ghost or Lich on a Ghoul replaced the Ghoul's own Undead type. Removing the template then deleted it, along with the senses it granted. | The template replaced the type unconditionally. | The type is replaced only when the creature is not already Undead. | Live: Ghost and Lich on a Ghoul applied and removed; type and senses intact. | Fixed — live |
 | FF-16 | Template provenance | 21 items on non-lich creatures carried stray `templateKey: "lich"` or `templateGenerated` marks. Removing a template could delete them. | Build residue. | Marks cleared on the 21 items. The Arcane Lich's genuine marks are kept. | Verifier FF-16. Live: Ghoul keeps its type after a Lich is removed. | Fixed — live |
 
-## 2. TRG Prime Codex (owner: Codex) — fixed in 0.2.0
+## 2. TRG Prime Codex (owner: Codex) — fixed in 0.2.0 (rulings carried in 0.2.1)
 
 | ID | Area | Symptom | Root cause | Repair | Evidence | Status |
 |---|---|---|---|---|---|---|
@@ -48,25 +47,26 @@ Baseline check: the uploaded `fiends-and-fables-prime.zip` 0.45.2 is the GitHub 
 | CX-06 | DP attributes | An imported creature's level-based attribute increases were priced as purchases. | The attribute modifier was measured from 1. | Measured from the creature's own published base (`attributeBaseline`). Codex-built designs are unchanged. | Node: 0.1.5 vs 0.2.0 Codex-built ledgers identical. | Fixed — static |
 | CX-07 | DP feats | Parameterised and tiered feats ("Weapon Focus (Brawling)", "Toughness II") were unvalued. Every printed General feat was priced as an additional purchase. | Exact-name catalogue match only. No allowance for the creature's own feat progression. | Base-entry category rate added as a DP-only row; such feats are never managed on apply, so the printed feat is never replaced. The level-progression General feats (1st level and every two levels after) are credited back provisionally under RD-07. | Node test CX-07. Complete ledgers went from 19 to 28. | Fixed — static |
 
-## 3. TRG Prime Core (owner: Core) — proposed, not applied
+## 3. TRG Prime Core (owner: Core) — fixed in 3.699.0 (built, not yet installed)
 
-| ID | Area | Symptom | Root cause | Proposal | Evidence | Status |
+| ID | Area | Symptom | Root cause | Repair | Evidence | Status |
 |---|---|---|---|---|---|---|
-| CO-01 | Grant workflow | Any later grant pass gave a creature with a printed-range sense ("Darkvision (60 ft.)") a second, generic "Darkvision". Seen live with Ghost on a Ghoul. | `applyGrant`'s `held` set compares exact names. | Hold ability items under their base name as well, by the rule Codex inheritance already uses. `core-proposal/CO-01-grant-base-name.patch` (grants-workflow.mjs only). Proposed for 3.699.0. | Live: the reproduction leaves one residual extra Darkvision. Core `npm run verify` on the patched tree: see the regression report. | Proposed |
-| CO-02 | Ooze type data | The Ooze type grants no precision-damage immunity. Codex 1.6 and the printed Ochre Jelly both list precision. | The type's immunity effect lacks a `precision` row. Core already resolves "precision" as an immunity token. | Add `, precision` to the Ooze type's `system.combat.immunities` effect. The Codex native copy and Fiends' 6 embedded Ooze types would follow at their next sync. Disease is a separate question (RD-08). | Ochre Jelly derived immunities lack precision; critical is handled by `critImmune`. | Proposed (data) |
+| CO-01 | Grant workflow | Any later grant pass gave a creature with a printed-range sense ("Darkvision (60 ft.)") a second, generic "Darkvision". Seen live with Ghost on a Ghoul. | `applyGrant`'s `held` set compares exact names. | Ability items are held under their base name too, by the rule Codex inheritance uses. Approved by Graham, 18 Nov 2026. | 19 grant-related verify scripts; `verify-joint-audit-3699` D1–D3. | Fixed in 3.699.0 |
+| CO-02 | Ooze type data | No precision-damage immunity, although Codex 1.6 and the printed Ochre Jelly list it. | Missing effect row. | `, precision` added (and `, disease`, RD-08). Declared pack fix plus owned-effect repair, re-gated migration. Approved 18 Nov 2026. | `verify-joint-audit-3699` E3–E8. | Fixed in 3.699.0 |
+| CO-03 | Ability collapse and Mindless | Reported by Graham, 18 Nov 2026: a creature that gains the Mindless trait can still be knocked out by its mental scores. Found with it: the Skeleton Warrior and Skeleton Champion print "Ethics Mindless", INT −5 and CHA −5, but carry no Mindless trait, so they fell unconscious the first time anything re-checked them. | The exemption covered only Intelligence and Charisma, read only the trait, and nothing re-ran the rule when a trait or ethic changed. | Graham's ruling: a mindless creature is immune to collapse from all three mental scores. The Mindless ethic counts for this rule only (it brings no −5 penalty or Mental immunity). A change to traits or ethic re-settles the rule at once. | `verify-chapter1` O16–O18e; `verify-joint-audit-3699` A1–A8. | Fixed in 3.699.0 |
 
-## 4. Rules decisions (owner: Rules — Graham)
+## 4. Rules decisions (owner: Rules) — all ruled by Graham, 18 November 2026
 
-| ID | Question | Affects | Current behaviour (unchanged) |
+| ID | Question | Ruling | Implemented in |
 |---|---|---|---|
-| RD-01 | Eternal Death State: Codex Part II says Eternals have no Death State, while the core rule and published Eternal blocks give one. Which governs? | 47 Eternal creatures; Codex-built Eternals | Published creatures keep the core value. Codex-built Eternals keep the Codex reading (CX-01). |
-| RD-02 | Tiny/Diminutive reach: Codex tables say 5 ft, core `SIZE_TABLE` says 0. | Codex apply on Tiny and Diminutive creatures; for example, a Quasit variant is blocked | The Codex blocks a mismatched apply rather than writing a value. |
-| RD-03 | Swim/Climb speed +4: whole Athletics/Climbing skill (core) or swim/climb checks only (as the printed totals imply)? | 46 creatures show +4 over print | Core applies it to the whole skill. |
-| RD-04 | Keen/Acute Sense +2: applied at roll time, not in the sheet total. The printed Perception includes it. | 12 creatures show 2 under print on the sheet | No change recommended: rolls are correct. Display only. |
-| RD-05 | Fearful Strength: Intimidate uses Strength, against the printed Intimidate. | Ape, Ape Lord, Laeleth | Core uses Strength. |
-| RD-06 | Dragon Level Table against printed dragon examples: generated dragons follow the table (breath 40 ft line / 30 ft cone). | Dragon framework advancement | Follows the table. |
-| RD-07 | Creature feats in DP: are a creature's level-progression General feats free, with only additional feats priced (Part I Feats; Part II "Additional General feat")? Is there a matching allowance for racial and class feats? | Provisional DP of every published creature, and of Codex-built creatures with feats | Imported creatures: General allowance credited, racial and class feats priced. Codex-built: unchanged from 0.1.5. |
-| RD-08 | Ooze disease immunity: Codex 1.6 type text includes disease, while core and the printed Ochre Jelly omit it. | 6 Ooze creatures | Not immune (core). |
+| RD-01 | Eternal Death State: Codex table (none) or core (Death State 5 on 32 of 47 published Eternals)? | **Codex table governs: Eternals have no Death State.** | Core 3.699.0 (type + owned-copy repair); Fiends 0.46.1 (47 embedded types); Codex already agreed. |
+| RD-02 | Tiny/Diminutive reach: Codex 5 ft or core 0? | **0 ft everywhere; the Codex accepts core's value.** | Codex 0.2.1 (size table reach 0; size DP unchanged; Tiny and Diminutive creatures can now be built and edited). |
+| RD-03 | Swim/Climb speed +4: the whole skill, or only when swimming or climbing? | **Only when actually swimming or climbing.** | Core 3.699.0: an automatic row on the Swim and Climb actions; sheet totals match the printed blocks (46 creatures). |
+| RD-04 | Keen/Acute Sense +2: on the sheet or at the roll? | **Keen Sense on the sheet; Acute Sense at the roll.** | Core 3.699.0 (12 creatures now show their printed Perception). |
+| RD-05 | Fearful Strength: Intimidate with Strength or Charisma? | **Keep Strength: the creature uses the better one.** | No change; the printed figures are noted as an oversight (Ape, Ape Lord, Laeleth). |
+| RD-06 | Dragon Level Table or printed dragon examples? | **The table is followed.** | Fiends 0.46.1: Cold Dragon, Talon breathes a 30-ft cone (was 20) and Cold Dragon, Sovereign a 40-ft cone (was 30). No exceptions remain. |
+| RD-07 | Are a creature's level-progression feats free in DP? | **As recommended:** General feats at 1st level and every two levels after are free; only additional feats are priced. | Codex 0.2.0 for published creatures (racial and class feats priced in full). Codex-built designs are unchanged, because the published DP examples are anchored on them. |
+| RD-08 | Ooze disease immunity? | **Yes.** | Core 3.699.0, with CO-02; Fiends 0.46.1 (6 embedded types); Codex 0.2.1 (native copy). |
 
 Book misprints, which the module already corrects silently, so no change is needed: Viper saves (printed Fort 45 / Ref 60 / Will 5; derived 9/12/1) and Raven Swarm DB 85 (derived 17).
 
@@ -78,11 +78,11 @@ Book misprints, which the module already corrects silently, so no change is need
 - **Scaly Resilience.** Owned by core 3.632+. The Fiends conditionals are cleared, so the benefit cannot be doubled.
 - **Codex native copies against core 3.698.4.** Types, classes, attacks and abilities are identical except Eternal `noDeathState` (RD-01). The Codex packs are not federated (they declare no `extends`), so they cannot interfere with Fiends inheritance.
 - **Cosmetic data.** 86 feat "featNote" effects are empty and have no mechanical effect. The Gaseous Form innate spell is a single spell and correct.
-- **Minimum core versions.** Codex keeps 3.685.2 and Fiends keeps 3.663.0, both now *verified* 3.698.4. On older cores the new flags (`creatureAttack.secondary`, `codexInherit`, the Mindless trait exemption) are ignored, never harmful. Only 3.698.4 was tested.
+- **Minimum core versions.** Codex keeps 3.685.2 and Fiends keeps 3.663.0, both now *verified* 3.699.0 (and tested on 3.698.4). The rulings take effect when core 3.699.0 is installed. On older cores the new flags (`creatureAttack.secondary`, `codexInherit`, the Mindless trait exemption) are ignored, never harmful. Only 3.698.4 was tested.
 - **Standalone use.** Fiends 0.46.0 needs nothing from the Codex. Each module lists the other only under `relationships.recommends`.
 
 ## 6. Outstanding work (not defects)
 
-1. **Post-install regression.** Graham installs Codex 0.2.0 and Fiends 0.46.0 in the Test world. Then the shared battery runs in all three configurations, plus the toolkit picker screenshot and a Foundry load check of the rebuilt packs.
-2. **Core decisions.** CO-01 and CO-02 need approval before any core release. A release would trigger the companion regressions (Pillars of Faith, Inner Tempest, Eldritch Arts) under the standing rule.
-3. **Rules decisions.** RD-01 to RD-08 need rulings. Any data change that follows goes to the owner shown.
+1. **Install and live re-test.** Core 3.699.0, Codex 0.2.1 and Fiends & Fables 0.46.1 go into the Test world. Then: the shared battery in all three configurations, the 294-creature re-derivation (the RD-03 and RD-04 differences should disappear), the Skeleton Warrior and gained-Mindless cases, the variant picker screenshot, and a pack load check.
+2. **Companion regressions.** Pillars of Faith, Inner Tempest and Eldritch Arts against 3.699.0, per the standing rule.
+3. **Publishing.** Core and Fiends publish on push to `main`, so pushing waits for Graham's go-ahead.

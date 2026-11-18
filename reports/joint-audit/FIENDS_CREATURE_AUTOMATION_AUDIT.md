@@ -27,14 +27,16 @@ Differences by cause, counted per creature:
 
 | Cause | Creatures | Owner and status |
 |---|---|---|
-| Swim/Climb +4 applied to the whole Athletics/Climbing skill | 46 | RD-03 decision |
-| Keen/Acute Sense +2 applied at roll time, not in the sheet total | 12 | RD-04 (display only; rolls are correct) |
-| Fearful Strength: Intimidate uses Strength | 3 | RD-05 decision |
+| Swim/Climb +4 applied to the whole Athletics/Climbing skill | 46 | RD-03 ruled: only when swimming or climbing. Core 3.699.0; the sheet then matches print |
+| Keen/Acute Sense +2 applied at roll time, not in the sheet total | 12 | RD-04 ruled: Keen Sense on the sheet. Core 3.699.0; the sheet then matches print |
+| Fearful Strength: Intimidate uses Strength | 3 | RD-05 ruled: keep Strength (print is the oversight) |
 | Leftover initiative/skill bonuses (Raven Swarm, Synarmi) | 2 | FF-03 fixed |
 | Archangel printed-DR calibration stacked on real DR | 1 | FF-02 fixed |
 | Book misprint (Viper saves; Raven Swarm DB 85) | 2 | none needed |
 
-Level, HP and the six ability scores match the book for every matched creature.
+Level, HP and the six ability scores match the book for every matched creature. Once core 3.699.0 is installed, the 58 creatures above with RD-03/RD-04 differences should match the book too; the post-install re-derivation will confirm it.
+
+**Mindless (core 3.699.0, CO-03).** The Skeleton Warrior and Skeleton Champion print "Ethics Mindless" with INT and CHA −5 but carry no Mindless trait. On core 3.698.4 they fall unconscious when anything re-checks them. Core 3.699.0 excuses any creature with the Mindless trait or ethic from mental-score collapse, so no data change is needed.
 
 ## Repairs to creature data in 0.46.0
 

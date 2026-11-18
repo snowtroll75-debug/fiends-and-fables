@@ -32,7 +32,7 @@ No double application was found:
 - **Dragon breaths (24 embedded).** These were overridden by Inner Tempest's same-named breaths when Inner Tempest was installed. That was a conflict, not a duplicate, and FF-13 makes the Fiends data authoritative.
 - **Scaly Resilience.** The feat is core-owned; the Fiends conditionals are empty, so the save bonus and halving apply once.
 - **Template-granted abilities.** Templates record what they add, and removal deletes only those items. FF-16 removed the stray marks that let a removal reach items the template did not add.
-- **Grant passes.** A printed-range sense such as "Darkvision (60 ft.)" can be re-granted generically next to itself (CO-01, core proposal). This is the one runtime duplicate path found, and it lies in core.
+- **Grant passes.** A printed-range sense such as "Darkvision (60 ft.)" can be re-granted generically next to itself (CO-01, fixed in core 3.699.0). This is the one runtime duplicate path found, and it lies in core.
 
 Embedded-only abilities: 196 names, 1,264 copies. These are creature-specific abilities printed in the blocks and embedded on the actors. 116 carry their own core declarations. 80 are text cards (238 copies), mostly descriptive traits and unique once-off powers. Senses and other generic abilities with a printed range, such as "Darkvision (70 ft.)" and "Scent (55 ft.)", also inherit core's declarations by base name.
 
